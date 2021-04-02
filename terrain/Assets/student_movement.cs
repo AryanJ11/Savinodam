@@ -16,6 +16,7 @@ public class student_movement : MonoBehaviour
     [SerializeField] Transform cam;
     [SerializeField] float sensitivity;
     [SerializeField] float headRotationLimit = 90f;
+    bool flag;
 
     float dirX, dirY, headRotation = 0f;
 
@@ -24,11 +25,13 @@ public class student_movement : MonoBehaviour
         anim=GetComponent<Animator>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        flag=false;
     }
 
     void Update() {
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
+
         float x1 = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
         float y1 = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime * -1f;
 
@@ -47,36 +50,38 @@ public class student_movement : MonoBehaviour
 
         rb.MovePosition(transform.position + moveBy.normalized * actualSpeed * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.Space) && IsOnGround()) {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        }
-
-        makeAnimation();
-
         dirX=x*actualSpeed;
         dirY=z*actualSpeed;
+
+        if (Input.GetKeyDown(KeyCode.Space) && IsOnGround()) {
+            flag=true;
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
+        else if(Input.GetKeyUp(KeyCode.Space))
+           flag=false;
+
+        makeAnimation();
     }
 
     void makeAnimation()
     {
-        if(dirX==0 && dirY==0)
+        //Debug.Log(flag);
+        if((dirX==0 && dirY==0) || flag)
         {
           anim.SetBool("isWalking", false);
           anim.SetBool("isRunning", false);
         }
 
         if((Mathf.Abs(dirX)==speed || Mathf.Abs(dirX)==speed
-            || Mathf.Abs(dirY)==speed || Mathf.Abs(dirY)==speed)
-            && rb.velocity.y==0)
+            || Mathf.Abs(dirY)==speed || Mathf.Abs(dirY)==speed) && flag==false)
           anim.SetBool("isWalking", true);
 
-        else if((Mathf.Abs(dirX)==speed*sprintMultiplier || Mathf.Abs(dirX)==speed*sprintMultiplier
-                || Mathf.Abs(dirY)==speed*sprintMultiplier || Mathf.Abs(dirY)==speed*sprintMultiplier)
-                && rb.velocity.y==0)
+        if((Mathf.Abs(dirX)==speed*sprintMultiplier || Mathf.Abs(dirX)==speed*sprintMultiplier
+                || Mathf.Abs(dirY)==speed*sprintMultiplier || Mathf.Abs(dirY)==speed*sprintMultiplier) && flag==false)
           anim.SetBool("isRunning", true);
+
         else
           anim.SetBool("isRunning", false);
-
     }
 
     bool IsOnGround() {
