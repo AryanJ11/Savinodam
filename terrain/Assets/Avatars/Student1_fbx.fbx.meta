@@ -60,65 +60,7 @@ ModelImporter:
       humanoid transforms and has rotation animation that will be discarded.\n\t'upperleg01_L'
       has translation animation that will be discarded.\n\t'upperleg01_R' has translation
       animation that will be discarded.\n"
-    animationRetargetingWarnings: "\nRetargeting quality report for clip 'student_1|idle':\n\tLeftLowerLeg
-      average position error 2.3 mm and maximum position error 2.3 mm at time 0:
-      4 (21.1%) Frame 4\n\tRightLowerLeg average position error 2.3 mm and maximum
-      position error 2.3 mm at time 0: 4 (21.1%) Frame 4\n\tLeftUpperArm average
-      position error 7.1 mm and maximum position error 15.0 mm at time 0: 9 (47.4%)
-      Frame 9\n\tLeftLowerArm average position error 7.4 mm and maximum position
-      error 15.3 mm at time 0: 9 (47.4%) Frame 9\n\tLeftHand average position error
-      7.2 mm and maximum position error 15.1 mm at time 0: 9 (47.4%) Frame 9\n\tRightUpperArm
-      average position error 7.1 mm and maximum position error 15.0 mm at time 0:
-      9 (47.4%) Frame 9\n\tRightLowerArm average position error 7.2 mm and maximum
-      position error 15.1 mm at time 0: 9 (47.4%) Frame 9\n\tRightHand average position
-      error 7.1 mm and maximum position error 15.0 mm at time 0: 9 (47.4%) Frame
-      9\n\tHead average position error 7.1 mm and maximum position error 15.0 mm
-      at time 0: 9 (47.4%) Frame 9\n\nRetargeting quality report for clip 'student_1|jumping':\n\tLeftLowerLeg
-      average position error 1.7 mm and maximum position error 9.4 mm at time 0:21
-      (67.7%) Frame 21\n\tLeftFoot average position error 1.2 mm and maximum position
-      error 4.8 mm at time 1: 2 (83.9%) Frame 26\n\tRightLowerLeg average position
-      error 1.7 mm and maximum position error 9.4 mm at time 0:21 (67.7%) Frame 21\n\tRightFoot
-      average position error 1.2 mm and maximum position error 4.8 mm at time 1:
-      2 (83.9%) Frame 26\n\tLeftUpperArm average position error 12.3 mm and maximum
-      position error 19.5 mm at time 0: 5 (16.1%) Frame 5\n\tLeftLowerArm average
-      position error 10.5 mm and maximum position error 18.0 mm at time 0:10 (32.3%)
-      Frame 10\n\tLeftHand average position error 9.3 mm and maximum position error
-      17.3 mm at time 0: 9 (29.0%) Frame 9\n\tRightUpperArm average position error
-      12.3 mm and maximum position error 19.5 mm at time 0: 5 (16.1%) Frame 5\n\tRightLowerArm
-      average position error 10.5 mm and maximum position error 18.0 mm at time 0:10
-      (32.3%) Frame 10\n\tRightHand average position error 9.3 mm and maximum position
-      error 17.3 mm at time 0: 9 (29.0%) Frame 9\n\tHead average position error 11.0
-      mm and maximum position error 19.5 mm at time 0: 5 (16.1%) Frame 5\n\nRetargeting
-      quality report for clip 'student_1|running':\n\tLeftLowerLeg average position
-      error 15.7 mm and maximum position error 41.1 mm at time 0: 4 (25.0%) Frame
-      4\n\tLeftFoot average position error 15.7 mm and maximum position error 41.2
-      mm at time 0: 4 (25.0%) Frame 4\n\tRightLowerLeg average position error 13.9
-      mm and maximum position error 41.1 mm at time 0:12 (75.0%) Frame 12\n\tRightFoot
-      average position error 13.9 mm and maximum position error 41.2 mm at time 0:12
-      (75.0%) Frame 12\n\tLeftUpperArm average position error 4.9 mm and maximum
-      position error 7.3 mm at time 0: 0 (0.0%) Frame 0\n\tLeftLowerArm average position
-      error 2.6 mm and maximum position error 4.2 mm at time 0:16 (100.0%) Frame
-      16\n\tLeftHand average position error 1.1 mm and maximum position error 2.0
-      mm at time 0:16 (100.0%) Frame 16\n\tRightUpperArm average position error 4.9
-      mm and maximum position error 7.3 mm at time 0: 0 (0.0%) Frame 0\n\tRightLowerArm
-      average position error 2.6 mm and maximum position error 4.2 mm at time 0:
-      8 (50.0%) Frame 8\n\tRightHand average position error 1.1 mm and maximum position
-      error 2.0 mm at time 0: 8 (50.0%) Frame 8\n\tHead average position error 5.6
-      mm and maximum position error 8.3 mm at time 0:16 (100.0%) Frame 16\n\nRetargeting
-      quality report for clip 'student_1|Walking':\n\tLeftLowerLeg average position
-      error 35.4 mm and maximum position error 68.7 mm at time 0:19 (76.0%) Frame
-      19\n\tLeftFoot average position error 35.3 mm and maximum position error 68.7
-      mm at time 0:19 (76.0%) Frame 19\n\tRightLowerLeg average position error 34.6
-      mm and maximum position error 68.7 mm at time 0: 7 (28.0%) Frame 7\n\tRightFoot
-      average position error 34.5 mm and maximum position error 68.7 mm at time 0:
-      7 (28.0%) Frame 7\n\tLeftUpperArm average position error 2.0 mm and maximum
-      position error 3.2 mm at time 0:13 (52.0%) Frame 13\n\tLeftLowerArm average
-      position error 1.1 mm and maximum position error 1.8 mm at time 0: 1 (4.0%)
-      Frame 1\n\tRightUpperArm average position error 2.0 mm and maximum position
-      error 3.2 mm at time 1: 1 (100.0%) Frame 25\n\tRightLowerArm average position
-      error 1.1 mm and maximum position error 1.8 mm at time 0:13 (52.0%) Frame 13\n\tHead
-      average position error 2.7 mm and maximum position error 3.3 mm at time 0:
-      1 (4.0%) Frame 1\n"
+    animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
@@ -226,7 +168,7 @@ ModelImporter:
       name: student_1|jumping (1)
       takeName: student_1|jumping
       internalID: 0
-      firstFrame: 0
+      firstFrame: 8
       lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
@@ -234,8 +176,8 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0

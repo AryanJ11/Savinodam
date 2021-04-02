@@ -54,11 +54,13 @@ public class student_movement : MonoBehaviour
         dirY=z*actualSpeed;
 
         if (Input.GetKeyDown(KeyCode.Space) && IsOnGround()) {
-            flag=true;
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
-        else if(Input.GetKeyUp(KeyCode.Space))
-           flag=false;
+
+        if(IsOnGround())
+          flag=false;
+        else
+          flag=true;
 
         makeAnimation();
     }
@@ -71,7 +73,8 @@ public class student_movement : MonoBehaviour
           anim.SetBool("isWalking", false);
           anim.SetBool("isRunning", false);
         }
-
+        if(!flag)
+          anim.SetBool("isJumping", false);
         if((Mathf.Abs(dirX)==speed || Mathf.Abs(dirX)==speed
             || Mathf.Abs(dirY)==speed || Mathf.Abs(dirY)==speed) && flag==false)
           anim.SetBool("isWalking", true);
@@ -82,6 +85,11 @@ public class student_movement : MonoBehaviour
 
         else
           anim.SetBool("isRunning", false);
+
+        if(flag)
+          anim.SetBool("isJumping", true);
+        else
+          anim.SetBool("isJumping", false);
     }
 
     bool IsOnGround() {
