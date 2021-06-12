@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a45e579af74dd45832a08d7a2696b6, type: 3}
   m_Name: GPUInstancerSettings
   m_EditorClassIdentifier: 
-  versionNo: 0
-  shaderBindings: {fileID: 0}
-  billboardAtlasBindings: {fileID: 0}
-  shaderVariantCollection: {fileID: 0}
-  packagesLoaded: 0
+  versionNo: 1.45
+  shaderBindings: {fileID: 11400000, guid: 4919cfa523e19cc46af72c399c1212f9, type: 2}
+  billboardAtlasBindings: {fileID: 11400000, guid: ff8584e252865114b9cfa0ec8b7e2f50, type: 2}
+  shaderVariantCollection: {fileID: 20000000, guid: 3d6d4c3a66ac726428bab536351c88c6, type: 2}
+  packagesLoaded: 1
   isHDRP: 0
   isLWRP: 0
-  isURP: 0
+  isURP: 1
   isShaderGraphPresent: 0
   instancingBoundsSize: 10000
   MAX_DETAIL_DISTANCE: 2500
@@ -36,7 +36,28 @@ MonoBehaviour:
   testBothEyesForVROcclusion: 1
   vrRenderingMode: 0
   extensionSettings: []
-  renderingSettingPresets: []
+  renderingSettingPresets:
+  - platform: 0
+    matrixHandlingType: 0
+    computeThreadCount: 3
+  - platform: 1
+    matrixHandlingType: 0
+    computeThreadCount: 2
+  - platform: 2
+    matrixHandlingType: 0
+    computeThreadCount: 2
+  - platform: 3
+    matrixHandlingType: 2
+    computeThreadCount: 1
+  - platform: 4
+    matrixHandlingType: 1
+    computeThreadCount: 1
+  - platform: 5
+    matrixHandlingType: 0
+    computeThreadCount: 3
+  - platform: 6
+    matrixHandlingType: 0
+    computeThreadCount: 3
   hasCustomRenderingSettings: 0
   customRenderingSettings:
     platform: 0
