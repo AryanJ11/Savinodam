@@ -4,20 +4,15 @@ ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: -5496085945280366409
-    second: Armature|graze
+      74: -6029265768853479269
+    second: Armature|Armature|GrazeB|Base Layer
   - first:
       74: -1978303741906493279
     second: Armature|idle
   - first:
       74: 7168293901883076996
     second: Armature|walking
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 6782109990854842233, guid: d2993c921c95c7949b9e3efc9085b9e9, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
