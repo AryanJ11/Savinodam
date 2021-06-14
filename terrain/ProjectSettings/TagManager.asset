@@ -6,6 +6,7 @@ TagManager:
   tags:
   - lb_groundTarget
   - lb_bird
+  - Obstacle
   layers:
   - Default
   - TransparentFX
