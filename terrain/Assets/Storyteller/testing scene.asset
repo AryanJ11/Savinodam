@@ -1,0 +1,507 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8874698477571012498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f62fd303fe32d84d939ad01a51f9fdb, type: 3}
+  m_Name: Student
+  m_EditorClassIdentifier: 
+  Name: Student
+  Text: 
+  UID: e5e25a56-4533-4b40-bc07-568c5f5ce70c
+  CharacterName: Student
+  CallingNodeData: {fileID: -8874698477571012498}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe: []
+  DataIconnectedTo:
+  - {fileID: 7156808925366800758}
+  Duration: 0
+  Delay: 0
+  RealtimeDelay: 0
+  StartTime: 0
+  DurationSum: 0
+  useTime: 0
+  IsPlayer: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - 
+  NodeDataInMyChain:
+  - {fileID: -8874698477571012498}
+  - {fileID: 7156808925366800758}
+  - {fileID: -6190552803694250340}
+  CharacterImage: {fileID: 0}
+  CharacterPersonality:
+    NegativeTraits:
+      Angry: 0
+      Arrogantt: 0
+      Careless: 0
+      Childish: 0
+      Cowardly: 0
+      Crafty: 0
+      Crazy: 0
+      Cruel: 0
+      Dependent: 0
+      Destructive: 0
+      Devious: 0
+      Disloyal: 0
+      Disobedient: 0
+      Disorderly: 0
+      Disorganized: 0
+      Fearful: 0
+      Fickle: 0
+      Foolish: 0
+      Forgetful: 0
+      Frightening: 0
+      Frivolous: 0
+      Graceless: 0
+      Gullible: 0
+      Hostile: 0
+      Impractical: 0
+      Irritable: 0
+      Lazy: 0
+      Meddlesome: 0
+      Miserable: 0
+      Neglectful: 0
+      Opportunistic: 0
+      Provocative: 0
+      Slow: 0
+      Timid: 0
+      Uncooperative: 0
+      Unreliable: 0
+      Weak: 0
+      WeakWilled: 0
+    NeutralTraits:
+      Aggressive: 0
+      Deceptive: 0
+      Dominating: 0
+      Enigmatic: 0
+      Experimental: 0
+      Iconoclastic: 0
+      Idiosyncratic: 0
+      Impassive: 0
+      Obedient: 0
+      Progressive: 0
+      Questioning: 0
+      Reserved: 0
+      Stubborn: 0
+    PositiveTraits:
+      Accessible: 0
+      Active: 0
+      Adaptable: 0
+      Adventurous: 0
+      Alert: 0
+      Brilliant: 0
+      Calm: 0
+      Capable: 0
+      Challenging: 0
+      Charismatic: 0
+      Clever: 0
+      Confident: 0
+      Cooperative: 0
+      Courageous: 0
+      Curious: 0
+      Daring: 0
+      Decisive: 0
+      Discreet: 0
+      Efficient: 0
+      Energetic: 0
+      Focused: 0
+      Helpful: 0
+      Independent: 0
+      Individualistic: 0
+      Innovative: 0
+      Intelligent: 0
+      Leaderly: 0
+      Logical: 0
+      Loyal: 0
+      Methodical: 0
+      Orderly: 0
+      Organized: 0
+      Patient: 0
+      Patriotic: 0
+      Peaceful: 0
+      Reliable: 0
+      Resourceful: 0
+      Responsible: 0
+      Responsive: 0
+      Sane: 0
+      Selfless: 0
+      Serious: 0
+      Skillful: 0
+      Stoic: 0
+      Strong: 0
+  SortingID: 0
+--- !u!114 &-6190552803694250340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 4_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 4_Dialogue
+  Text: 
+  UID: 50708c56-e9a1-451a-81bd-487ded91821c
+  CharacterName: Student
+  CallingNodeData: {fileID: -8874698477571012498}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 7156808925366800758}
+  DataIconnectedTo: []
+  Duration: 1.85
+  Delay: 1.8
+  RealtimeDelay: 0.45000005
+  StartTime: 2.8
+  DurationSum: 4.65
+  useTime: 1
+  IsPlayer: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - bye
+  LocalizedVoiceRecordings:
+  - {fileID: 8300000, guid: 2b022fa441d2dc04483fce2022f40853, type: 3}
+  LocalizedSoundEffects:
+  - {fileID: 0}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &-2849156372474385204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 5_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 5_Dialogue
+  Text: 
+  UID: c87b56c2-4094-4490-8865-1d18d5c798d4
+  CharacterName: Guru
+  CallingNodeData: {fileID: 364779130676493074}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 5765560703101540300}
+  DataIconnectedTo:
+  - {fileID: -416141314703377615}
+  Duration: 1
+  Delay: 2.55
+  RealtimeDelay: 0.24999964
+  StartTime: 4.8999996
+  DurationSum: 5.8999996
+  useTime: 1
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - bye bye
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 0}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &-416141314703377615
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c74f5891de31f5248a76eef5fbfae5e3, type: 3}
+  m_Name: 6_End
+  m_EditorClassIdentifier: 
+  Name: 6_End
+  Text: 
+  UID: 3b1b584c-f481-40dd-9fea-1bb0325b9fd4
+  CharacterName: Guru
+  CallingNodeData: {fileID: 364779130676493074}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: -2849156372474385204}
+  DataIconnectedTo: []
+  Duration: 0
+  Delay: 0
+  RealtimeDelay: 0
+  StartTime: 4.90016
+  DurationSum: 0
+  useTime: 0
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898e24b5475626c4e801ae0a3c8a1e90, type: 3}
+  m_Name: testing scene
+  m_EditorClassIdentifier: 
+  UID: b83fe9c5-ddf0-4a67-9009-c48ed5a89436
+  UpdateUID: bbbaf076-8470-421b-a8d3-930be253eb88
+  SceneID: 0
+  FullCharacterDialogueSet:
+  - {fileID: -8874698477571012498}
+  - {fileID: 7156808925366800758}
+  - {fileID: 364779130676493074}
+  - {fileID: -416141314703377615}
+  - {fileID: 5765560703101540300}
+  - {fileID: -6190552803694250340}
+  - {fileID: -2849156372474385204}
+  ActiveCharacterDialogueSet:
+  - {fileID: 7156808925366800758}
+  - {fileID: 5765560703101540300}
+  - {fileID: -6190552803694250340}
+  - {fileID: -2849156372474385204}
+  - {fileID: -416141314703377615}
+  Characters:
+  - {fileID: -8874698477571012498}
+  - {fileID: 364779130676493074}
+  Languages:
+  - Name: English
+    CountryCode: en-US
+    Active: 0
+    Default: 0
+  LanguageIndex: 0
+  LanguageNameArray:
+  - English
+--- !u!114 &364779130676493074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f62fd303fe32d84d939ad01a51f9fdb, type: 3}
+  m_Name: Guru
+  m_EditorClassIdentifier: 
+  Name: Guru
+  Text: 
+  UID: b6dcd29a-7ee9-4428-82e1-963a82749655
+  CharacterName: Guru
+  CallingNodeData: {fileID: 364779130676493074}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe: []
+  DataIconnectedTo:
+  - {fileID: 5765560703101540300}
+  Duration: 0
+  Delay: 0
+  RealtimeDelay: 0
+  StartTime: 0
+  DurationSum: 0
+  useTime: 0
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - 
+  NodeDataInMyChain:
+  - {fileID: -2849156372474385204}
+  - {fileID: 5765560703101540300}
+  - {fileID: 364779130676493074}
+  - {fileID: -416141314703377615}
+  CharacterImage: {fileID: 0}
+  CharacterPersonality:
+    NegativeTraits:
+      Angry: 0
+      Arrogantt: 0
+      Careless: 0
+      Childish: 0
+      Cowardly: 0
+      Crafty: 0
+      Crazy: 0
+      Cruel: 0
+      Dependent: 0
+      Destructive: 0
+      Devious: 0
+      Disloyal: 0
+      Disobedient: 0
+      Disorderly: 0
+      Disorganized: 0
+      Fearful: 0
+      Fickle: 0
+      Foolish: 0
+      Forgetful: 0
+      Frightening: 0
+      Frivolous: 0
+      Graceless: 0
+      Gullible: 0
+      Hostile: 0
+      Impractical: 0
+      Irritable: 0
+      Lazy: 0
+      Meddlesome: 0
+      Miserable: 0
+      Neglectful: 0
+      Opportunistic: 0
+      Provocative: 0
+      Slow: 0
+      Timid: 0
+      Uncooperative: 0
+      Unreliable: 0
+      Weak: 0
+      WeakWilled: 0
+    NeutralTraits:
+      Aggressive: 0
+      Deceptive: 0
+      Dominating: 0
+      Enigmatic: 0
+      Experimental: 0
+      Iconoclastic: 0
+      Idiosyncratic: 0
+      Impassive: 0
+      Obedient: 0
+      Progressive: 0
+      Questioning: 0
+      Reserved: 0
+      Stubborn: 0
+    PositiveTraits:
+      Accessible: 0
+      Active: 0
+      Adaptable: 0
+      Adventurous: 0
+      Alert: 0
+      Brilliant: 0
+      Calm: 0
+      Capable: 0
+      Challenging: 0
+      Charismatic: 0
+      Clever: 0
+      Confident: 0
+      Cooperative: 0
+      Courageous: 0
+      Curious: 0
+      Daring: 0
+      Decisive: 0
+      Discreet: 0
+      Efficient: 0
+      Energetic: 0
+      Focused: 0
+      Helpful: 0
+      Independent: 0
+      Individualistic: 0
+      Innovative: 0
+      Intelligent: 0
+      Leaderly: 0
+      Logical: 0
+      Loyal: 0
+      Methodical: 0
+      Orderly: 0
+      Organized: 0
+      Patient: 0
+      Patriotic: 0
+      Peaceful: 0
+      Reliable: 0
+      Resourceful: 0
+      Responsible: 0
+      Responsive: 0
+      Sane: 0
+      Selfless: 0
+      Serious: 0
+      Skillful: 0
+      Stoic: 0
+      Strong: 0
+  SortingID: 1
+--- !u!114 &5765560703101540300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 3_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 3_Dialogue
+  Text: 
+  UID: 974708b7-d094-4e69-a77f-659e93160ec4
+  CharacterName: Guru
+  CallingNodeData: {fileID: 364779130676493074}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 364779130676493074}
+  DataIconnectedTo:
+  - {fileID: -2849156372474385204}
+  Duration: 1
+  Delay: 1.3499999
+  RealtimeDelay: 0.3499999
+  StartTime: 1.3499999
+  DurationSum: 2.35
+  useTime: 1
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - hi
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 0}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &7156808925366800758
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 3_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 3_Dialogue
+  Text: 
+  UID: 292332af-7ec8-4b4f-9221-7c6e278c4160
+  CharacterName: Student
+  CallingNodeData: {fileID: -8874698477571012498}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: -8874698477571012498}
+  - {fileID: 0}
+  DataIconnectedTo:
+  - {fileID: -6190552803694250340}
+  Duration: 1
+  Delay: 0
+  RealtimeDelay: 0
+  StartTime: 0
+  DurationSum: 1
+  useTime: 1
+  IsPlayer: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - hello
+  LocalizedVoiceRecordings:
+  - {fileID: 8300000, guid: 8f6ee6effa661614e92f29cbd07a304a, type: 3}
+  LocalizedSoundEffects:
+  - {fileID: 0}
+  StoryboardImage: {fileID: 0}
+  Tag: 
