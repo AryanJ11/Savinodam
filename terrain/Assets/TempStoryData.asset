@@ -17,23 +17,23 @@ MonoBehaviour:
   UID: 12d46403-4242-44b4-b380-5d48f66917cf
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 7
+  IndexInList: 12
   NodeRect:
     serializedVersion: 2
-    x: 9773.153
-    y: 997.25256
+    x: 9774.403
+    y: 998.604
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 9768.153
-    y: 1052.2526
+    x: 9769.403
+    y: 1053.604
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 10098.153
-    y: 1052.2526
+    x: 10099.403
+    y: 1053.604
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -91,7 +91,7 @@ MonoBehaviour:
   UID: 7caa39e7-1b54-4a2c-a782-dc09a0681d48
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 19
+  IndexInList: 20
   NodeRect:
     serializedVersion: 2
     x: 6026.949
@@ -164,7 +164,7 @@ MonoBehaviour:
   UID: ab77f61b-f0fe-4703-9e15-f106ab5456ac
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 4
+  IndexInList: 3
   NodeRect:
     serializedVersion: 2
     x: 6576.519
@@ -234,23 +234,23 @@ MonoBehaviour:
   UID: cafc15ad-94e0-4f96-bae6-3a59fbe3ca59
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 3
+  IndexInList: 7
   NodeRect:
     serializedVersion: 2
     x: 5090.211
-    y: 984.6321
+    y: 983.59033
     width: 150
     height: 200
   InputArea:
     serializedVersion: 2
     x: 5085.211
-    y: 1079.6321
+    y: 1078.5903
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
     x: 5235.211
-    y: 1079.6321
+    y: 1078.5903
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -306,22 +306,22 @@ MonoBehaviour:
   UID: 083d44d5-1e20-4434-a268-1479b8fe7a27
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 10
+  IndexInList: 13
   NodeRect:
     serializedVersion: 2
-    x: 705.84033
+    x: 708.4719
     y: 886.35974
     width: 200
     height: 85
   InputArea:
     serializedVersion: 2
-    x: 700.84033
+    x: 703.4719
     y: 923.85974
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 900.84033
+    x: 903.4719
     y: 923.85974
     width: 10
     height: 10
@@ -511,7 +511,7 @@ MonoBehaviour:
   UID: c0b04a31-018a-4fff-91a4-7fe936880f40
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 5
+  IndexInList: 4
   NodeRect:
     serializedVersion: 2
     x: 8097.117
@@ -653,23 +653,23 @@ MonoBehaviour:
   UID: d7321f72-03ec-48f1-af42-d7829865aab4
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 14
+  IndexInList: 15
   NodeRect:
     serializedVersion: 2
-    x: 2844.8655
-    y: 962.01306
+    x: 2881.5442
+    y: 1004.6831
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 2839.8655
-    y: 1017.01306
+    x: 2876.5442
+    y: 1059.6831
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 3169.8655
-    y: 1017.01306
+    x: 3206.5442
+    y: 1059.6831
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -712,7 +712,7 @@ MonoBehaviour:
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 8f6ee6effa661614e92f29cbd07a304a, type: 3}
   StoryboardImagePath: 
   VoiceRecording: {fileID: 0}
   LocalizedVoiceRecordings:
@@ -736,23 +736,23 @@ MonoBehaviour:
   UID: f1da4c1d-c09d-4b9b-8908-2102188d845d
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 13
+  IndexInList: 23
   NodeRect:
     serializedVersion: 2
-    x: 1621.4448
-    y: 972.2684
+    x: 1629.2682
+    y: 971.4789
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 1616.4448
-    y: 1027.2683
+    x: 1624.2682
+    y: 1026.4789
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 1946.4448
-    y: 1027.2683
+    x: 1954.2682
+    y: 1026.4789
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -784,7 +784,7 @@ MonoBehaviour:
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 0d289b19f3fd204449c94b55fdf8790e, type: 3}
   StoryboardImagePath: 
   VoiceRecording: {fileID: 0}
   LocalizedVoiceRecordings:
@@ -808,23 +808,23 @@ MonoBehaviour:
   UID: 7ae1815a-cede-47c3-bf70-35899fe93a65
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 20
+  IndexInList: 8
   NodeRect:
     serializedVersion: 2
-    x: 6984.2065
-    y: 937.7209
+    x: 6987.91
+    y: 941.42456
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 6979.2065
-    y: 992.7209
+    x: 6982.91
+    y: 996.42456
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 7309.2065
-    y: 992.7209
+    x: 7312.91
+    y: 996.42456
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -889,34 +889,34 @@ MonoBehaviour:
   Scenes:
   - SceneName: dialogue
     UID: 2b33a32c-3b76-4d6d-a415-ace6cbc2aacd
-    Pan: {x: 209.20271, y: 72.39887}
-    Zoom: 0.94000006
+    Pan: {x: 98.77792, y: 278.74283}
+    Zoom: 0.28
     NodeElements:
     - {fileID: 676233016257586096}
     - {fileID: -2297206141622679995}
     - {fileID: 8231420985822056828}
-    - {fileID: -7072353321750366347}
     - {fileID: -7947501165232089086}
     - {fileID: -2673418591584733314}
     - {fileID: 7431040243309270495}
-    - {fileID: -8812478725216370539}
-    - {fileID: 2065116331865369977}
     - {fileID: 659913424031626201}
+    - {fileID: -7072353321750366347}
+    - {fileID: -565677505163170385}
+    - {fileID: 2214496469805002279}
+    - {fileID: 6971198334904021982}
+    - {fileID: 2252738728524547400}
+    - {fileID: -8812478725216370539}
     - {fileID: -4566672859299669634}
     - {fileID: 5249236475304602527}
-    - {fileID: 140788234517502979}
-    - {fileID: -838851941778986031}
     - {fileID: -859422236551361873}
     - {fileID: 4773000327296068661}
     - {fileID: 7194012863011624329}
     - {fileID: 8984039850300726123}
     - {fileID: 6416325302862801226}
     - {fileID: -8195252937247352855}
-    - {fileID: -565677505163170385}
-    - {fileID: 2214496469805002279}
-    - {fileID: 6971198334904021982}
-    - {fileID: 2252738728524547400}
+    - {fileID: 2065116331865369977}
     - {fileID: 1781623242325795168}
+    - {fileID: -838851941778986031}
+    - {fileID: 140788234517502979}
     Characters:
     - {fileID: 1781623242325795168}
     - {fileID: -4566672859299669634}
@@ -942,13 +942,13 @@ MonoBehaviour:
   Summary: ' Summary'
   TempName: 
   TimeStamp:
-    Stamp: 18-06-2021 20:26:49
+    Stamp: 18-06-2021 22:43:54
   CreatedDataFolders: 1
   ProjectDataFolder: {fileID: 102900000, guid: c437b60ff33fc1f4ba7c8476996d87ad, type: 3}
   AudioFileFolder: {fileID: 102900000, guid: 2babed09752fd914d872d24734b1141a, type: 3}
   ImageFileFolder: {fileID: 102900000, guid: 5b7af689b7c94ae4c94aa8d54a0fc0c6, type: 3}
   CustomExportFolderLocation: 
-  FullDuration: 0
+  FullDuration: 125.37877655029297
   Year: yyyy
   Genre: Action
   StoryboardMode: 0
@@ -1004,23 +1004,23 @@ MonoBehaviour:
   UID: 7cbb45ff-2ea6-4cae-9acf-fa064ae36523
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 12
+  IndexInList: 24
   NodeRect:
     serializedVersion: 2
-    x: 2173.8442
-    y: 967.1174
+    x: 2176.9456
+    y: 966.20996
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 2168.8442
-    y: 1022.1174
+    x: 2171.9456
+    y: 1021.20996
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 2498.8442
-    y: 1022.1174
+    x: 2501.9456
+    y: 1021.20996
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -1053,7 +1053,7 @@ MonoBehaviour:
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 0d289b19f3fd204449c94b55fdf8790e, type: 3}
   StoryboardImagePath: 
   VoiceRecording: {fileID: 0}
   LocalizedVoiceRecordings:
@@ -1077,7 +1077,7 @@ MonoBehaviour:
   UID: a19e06e1-fab8-4943-8a13-4dec16efa128
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 9
+  IndexInList: 6
   NodeRect:
     serializedVersion: 2
     x: 10203.979
@@ -1209,22 +1209,22 @@ MonoBehaviour:
   UID: f53612f5-813f-4afc-9c98-d82b4f01c13c
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 24
+  IndexInList: 22
   NodeRect:
     serializedVersion: 2
-    x: 543.24524
+    x: 544.3091
     y: 212.34567
     width: 200
     height: 85
   InputArea:
     serializedVersion: 2
-    x: 538.24524
+    x: 539.3091
     y: 249.84567
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 738.24524
+    x: 739.3091
     y: 249.84567
     width: 10
     height: 10
@@ -1400,22 +1400,22 @@ MonoBehaviour:
   UID: 56146373-2766-4a90-a431-09eb7c9620e6
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 8
+  IndexInList: 21
   NodeRect:
     serializedVersion: 2
-    x: 1010.95105
+    x: 1011.9928
     y: 206.10686
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 1005.95105
+    x: 1006.9928
     y: 261.10687
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 1335.951
+    x: 1336.9928
     y: 261.10687
     width: 10
     height: 10
@@ -1472,22 +1472,22 @@ MonoBehaviour:
   UID: 67bbd074-5a35-4cd2-b255-cd15d560fe1d
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 21
+  IndexInList: 9
   NodeRect:
     serializedVersion: 2
-    x: 7624.093
+    x: 7627.528
     y: 933.9847
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 7619.093
+    x: 7622.528
     y: 988.9847
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 7949.093
+    x: 7952.528
     y: 988.9847
     width: 10
     height: 10
@@ -1547,23 +1547,23 @@ MonoBehaviour:
   UID: 234dacf5-3797-4d34-a7e6-3fceb7752de3
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 23
+  IndexInList: 11
   NodeRect:
     serializedVersion: 2
     x: 8818.547
-    y: 994.1173
+    y: 995.15906
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
     x: 8813.547
-    y: 1049.1173
+    y: 1050.159
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
     x: 9143.547
-    y: 1049.1173
+    y: 1050.159
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -1620,23 +1620,23 @@ MonoBehaviour:
   UID: a8f4a483-a8a8-46d0-8822-f49b8e1d08e4
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 15
+  IndexInList: 16
   NodeRect:
     serializedVersion: 2
-    x: 3369.1755
-    y: 970.0366
+    x: 3313.1572
+    y: 1013.7997
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 3364.1755
-    y: 1025.0366
+    x: 3308.1572
+    y: 1068.7997
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 3694.1755
-    y: 1025.0366
+    x: 3638.1572
+    y: 1068.7997
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -1669,7 +1669,7 @@ MonoBehaviour:
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 043ae0eb999bb144aa43ee17b18ca1b1, type: 3}
   StoryboardImagePath: 
   VoiceRecording: {fileID: 0}
   LocalizedVoiceRecordings:
@@ -1693,23 +1693,23 @@ MonoBehaviour:
   UID: 4fe1064f-367c-43f0-835b-617b07e8ba20
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 11
+  IndexInList: 14
   NodeRect:
     serializedVersion: 2
-    x: 1259.696
-    y: 1052.8013
+    x: 1261.085
+    y: 1051.5513
     width: 150
     height: 50
   InputArea:
     serializedVersion: 2
-    x: 1254.696
-    y: 1072.8013
+    x: 1256.085
+    y: 1071.5513
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 1404.696
-    y: 1072.8013
+    x: 1406.085
+    y: 1071.5513
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -1763,22 +1763,22 @@ MonoBehaviour:
   UID: 59beeb44-0a37-4a8c-8ca3-3464bb55b8e6
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 18
+  IndexInList: 19
   NodeRect:
     serializedVersion: 2
-    x: 5470.6064
+    x: 5473.208
     y: 954.48694
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 5465.6064
+    x: 5468.208
     y: 1009.48694
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 5795.6064
+    x: 5798.208
     y: 1009.48694
     width: 10
     height: 10
@@ -1837,22 +1837,22 @@ MonoBehaviour:
   UID: a7a741b6-c716-47a3-91bd-dd855ed256a3
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 22
+  IndexInList: 10
   NodeRect:
     serializedVersion: 2
-    x: 8377.117
+    x: 8375.766
     y: 966.9746
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 8372.117
+    x: 8370.766
     y: 1021.9746
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 8702.117
+    x: 8700.766
     y: 1021.9746
     width: 10
     height: 10
@@ -1910,23 +1910,23 @@ MonoBehaviour:
   UID: 6fa01490-5e9c-4c8e-9972-2f8799498cce
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 16
+  IndexInList: 17
   NodeRect:
     serializedVersion: 2
-    x: 3881.229
-    y: 978.96204
+    x: 3879.979
+    y: 982.09564
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 3876.229
-    y: 1033.962
+    x: 3874.979
+    y: 1037.0957
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 4206.229
-    y: 1033.962
+    x: 4204.979
+    y: 1037.0957
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -1962,7 +1962,7 @@ MonoBehaviour:
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 2b022fa441d2dc04483fce2022f40853, type: 3}
   StoryboardImagePath: 
   VoiceRecording: {fileID: 0}
   LocalizedVoiceRecordings:
@@ -1986,7 +1986,7 @@ MonoBehaviour:
   UID: fa344c40-ea72-44e0-9333-6712d3e4c71f
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 6
+  IndexInList: 5
   NodeRect:
     serializedVersion: 2
     x: 9364.262
@@ -2125,23 +2125,23 @@ MonoBehaviour:
   UID: 8f5215ac-0ba9-40b5-890e-c4ae2da04606
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 17
+  IndexInList: 18
   NodeRect:
     serializedVersion: 2
-    x: 4517.5894
-    y: 962.4814
+    x: 4514.2007
+    y: 964.4814
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 4512.5894
-    y: 1017.4814
+    x: 4509.2007
+    y: 1019.4814
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 4842.5894
-    y: 1017.4814
+    x: 4839.2007
+    y: 1019.4814
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
