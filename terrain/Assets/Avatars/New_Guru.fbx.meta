@@ -12,6 +12,18 @@ ModelImporter:
   - first:
       74: 6910787922391802156
     second: guru|Voice EE
+  - first:
+      74: -2510834740365135931
+    second: guru|pointing_cow
+  - first:
+      74: 5968865863690139113
+    second: guru|pointing_forest
+  - first:
+      74: -2916826703722039897
+    second: guru|pointing_river
+  - first:
+      74: -3444848286233622578
+    second: guru|pointing_tree
   externalObjects: {}
   materials:
     materialImportMode: 2

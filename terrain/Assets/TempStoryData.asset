@@ -91,7 +91,7 @@ MonoBehaviour:
   UID: 7caa39e7-1b54-4a2c-a782-dc09a0681d48
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 18
+  IndexInList: 13
   NodeRect:
     serializedVersion: 2
     x: 6026.949
@@ -653,7 +653,7 @@ MonoBehaviour:
   UID: d7321f72-03ec-48f1-af42-d7829865aab4
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 13
+  IndexInList: 20
   NodeRect:
     serializedVersion: 2
     x: 2881.5442
@@ -736,7 +736,7 @@ MonoBehaviour:
   UID: f1da4c1d-c09d-4b9b-8908-2102188d845d
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 20
+  IndexInList: 18
   NodeRect:
     serializedVersion: 2
     x: 1629.2682
@@ -889,8 +889,8 @@ MonoBehaviour:
   Scenes:
   - SceneName: dialogue
     UID: 2b33a32c-3b76-4d6d-a415-ace6cbc2aacd
-    Pan: {x: 1261.7803, y: -263.98422}
-    Zoom: 0.53999996
+    Pan: {x: 5071.541, y: 754.63837}
+    Zoom: 0.65999985
     NodeElements:
     - {fileID: -2297206141622679995}
     - {fileID: -7947501165232089086}
@@ -905,18 +905,18 @@ MonoBehaviour:
     - {fileID: -8812478725216370539}
     - {fileID: -4566672859299669634}
     - {fileID: 5249236475304602527}
+    - {fileID: -8195252937247352855}
+    - {fileID: 2065116331865369977}
+    - {fileID: 1781623242325795168}
+    - {fileID: 8231420985822056828}
+    - {fileID: 676233016257586096}
+    - {fileID: -838851941778986031}
+    - {fileID: 140788234517502979}
     - {fileID: -859422236551361873}
     - {fileID: 4773000327296068661}
     - {fileID: 7194012863011624329}
     - {fileID: 8984039850300726123}
     - {fileID: 6416325302862801226}
-    - {fileID: -8195252937247352855}
-    - {fileID: 2065116331865369977}
-    - {fileID: -838851941778986031}
-    - {fileID: 140788234517502979}
-    - {fileID: 1781623242325795168}
-    - {fileID: 8231420985822056828}
-    - {fileID: 676233016257586096}
     Characters:
     - {fileID: 1781623242325795168}
     - {fileID: -4566672859299669634}
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   UID: 7cbb45ff-2ea6-4cae-9acf-fa064ae36523
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 21
+  IndexInList: 19
   NodeRect:
     serializedVersion: 2
     x: 2176.9456
@@ -1139,23 +1139,23 @@ MonoBehaviour:
   UID: 33c186d4-b4f2-4299-8369-5dc1e315ee1f
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 24
+  IndexInList: 17
   NodeRect:
     serializedVersion: 2
     x: 1731.9558
     y: 257.49606
     width: 150
-    height: 50
+    height: 200
   InputArea:
     serializedVersion: 2
     x: 1726.9558
-    y: 277.49606
+    y: 352.49606
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
     x: 1876.9558
-    y: 277.49606
+    y: 352.49606
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -1183,7 +1183,7 @@ MonoBehaviour:
   OverrideStartTime: 0
   LocalizedText:
   - Sit
-  Expand: 0
+  Expand: 1
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   UID: f53612f5-813f-4afc-9c98-d82b4f01c13c
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 22
+  IndexInList: 15
   NodeRect:
     serializedVersion: 2
     x: 544.3091
@@ -1400,7 +1400,7 @@ MonoBehaviour:
   UID: 56146373-2766-4a90-a431-09eb7c9620e6
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 19
+  IndexInList: 14
   NodeRect:
     serializedVersion: 2
     x: 1011.9928
@@ -1620,7 +1620,7 @@ MonoBehaviour:
   UID: a8f4a483-a8a8-46d0-8822-f49b8e1d08e4
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 14
+  IndexInList: 21
   NodeRect:
     serializedVersion: 2
     x: 3313.1572
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   UID: 59beeb44-0a37-4a8c-8ca3-3464bb55b8e6
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 17
+  IndexInList: 24
   NodeRect:
     serializedVersion: 2
     x: 5473.208
@@ -1910,7 +1910,7 @@ MonoBehaviour:
   UID: 6fa01490-5e9c-4c8e-9972-2f8799498cce
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 15
+  IndexInList: 22
   NodeRect:
     serializedVersion: 2
     x: 3879.979
@@ -2056,7 +2056,7 @@ MonoBehaviour:
   UID: 11368a16-af54-46e3-95c5-f8c5a745dbc5
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 23
+  IndexInList: 16
   NodeRect:
     serializedVersion: 2
     x: 2551.8171
@@ -2125,7 +2125,7 @@ MonoBehaviour:
   UID: 8f5215ac-0ba9-40b5-890e-c4ae2da04606
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 16
+  IndexInList: 23
   NodeRect:
     serializedVersion: 2
     x: 4514.2007
