@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4763447, g: 0.5290356, b: 0.61555827, a: 1}
+  m_IndirectSpecularColor: {r: 0.47634584, g: 0.5290358, b: 0.6155585, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -274,7 +274,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: SpeakNow
         m_Mode: 1
@@ -5598,7 +5598,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: SpeakNow
         m_Mode: 1
@@ -7698,7 +7698,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: SpeakNow
         m_Mode: 1
@@ -8928,7 +8928,7 @@ MonoBehaviour:
   cachedTargetObject: {fileID: 0}
   ComponentIndex: 0
   Components: []
-  Disabled: 0
+  Disabled: 1
   Invoked: 0
   MethodIndex: 0
   ObjectiveBool: 0
@@ -9634,7 +9634,7 @@ MonoBehaviour:
   cachedTargetObject: {fileID: 0}
   ComponentIndex: 0
   Components: []
-  Disabled: 0
+  Disabled: 1
   Invoked: 0
   MethodIndex: 0
   ObjectiveBool: 0
@@ -15608,7 +15608,7 @@ MonoBehaviour:
   cachedTargetObject: {fileID: 0}
   ComponentIndex: 0
   Components: []
-  Disabled: 0
+  Disabled: 1
   Invoked: 0
   MethodIndex: 0
   ObjectiveBool: 0
@@ -15939,7 +15939,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: SpeakNow
         m_Mode: 1
@@ -17213,7 +17213,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: SpeakNow
         m_Mode: 1
@@ -26603,7 +26603,7 @@ MonoBehaviour:
   cachedTargetObject: {fileID: 0}
   ComponentIndex: 0
   Components: []
-  Disabled: 0
+  Disabled: 1
   Invoked: 0
   MethodIndex: 0
   ObjectiveBool: 0
@@ -26612,7 +26612,7 @@ MonoBehaviour:
   targetEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: StopSpeak
         m_Mode: 1
@@ -26625,9 +26625,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   TargetGameObject: {fileID: 0}
-  timeUseMethod: 1
+  timeUseMethod: 3
   UseTime: 1
-  CustomWaitTime: 0
+  CustomWaitTime: 20
   DialoguerGameObject: {fileID: 0}
   dialoguer: {fileID: 0}
   CharacterGameObject: {fileID: 1688564190}
@@ -27113,6 +27113,7 @@ GameObject:
   - component: {fileID: 810893066}
   - component: {fileID: 810893068}
   - component: {fileID: 810893069}
+  - component: {fileID: 810893070}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -27190,7 +27191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -27238,6 +27239,19 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &810893070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810893064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25076ea04f8b11e4f910a03cf641a057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 271
 --- !u!1001 &811560660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27946,7 +27960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3fd7e9b9682f4458e1869ce15de6a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AutoStart: 0
+  AutoStart: 1
   cachedTargetObject: {fileID: 0}
   ComponentIndex: 0
   Components: []
@@ -27958,7 +27972,19 @@ MonoBehaviour:
   serializedMethods: []
   targetEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1688564198}
+        m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
+        m_MethodName: SpeakNow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TargetGameObject: {fileID: 0}
   timeUseMethod: 0
   UseTime: 0
@@ -29496,7 +29522,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: SpeakNow
         m_Mode: 1
@@ -31325,7 +31351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cdb144b4da5371d47a9e84c097446e7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 126.54767
+      value: 120.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cdb144b4da5371d47a9e84c097446e7c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31333,7 +31359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cdb144b4da5371d47a9e84c097446e7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 142.5921
+      value: 146.92
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cdb144b4da5371d47a9e84c097446e7c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33416,7 +33442,7 @@ MonoBehaviour:
   cachedTargetObject: {fileID: 0}
   ComponentIndex: 0
   Components: []
-  Disabled: 0
+  Disabled: 1
   Invoked: 0
   MethodIndex: 0
   ObjectiveBool: 0
@@ -46293,7 +46319,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: SpeakNow
         m_Mode: 1
@@ -48189,10 +48215,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.19544068
-  m_Height: 1.2037201
+  m_Radius: 0.5
+  m_Height: 2
   m_Direction: 1
-  m_Center: {x: -0.020574952, y: 0.60186005, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1313132279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49124,7 +49150,7 @@ MonoBehaviour:
   cachedTargetObject: {fileID: 0}
   ComponentIndex: 0
   Components: []
-  Disabled: 0
+  Disabled: 1
   Invoked: 0
   MethodIndex: 0
   ObjectiveBool: 0
@@ -53124,8 +53150,8 @@ MonoBehaviour:
   targetEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1517750692}
-        m_TargetAssemblyTypeName: pointTree, Assembly-CSharp
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: pointRiver, Assembly-CSharp
         m_MethodName: point
         m_Mode: 1
         m_Arguments:
@@ -57428,7 +57454,7 @@ MonoBehaviour:
   cachedTargetObject: {fileID: 0}
   ComponentIndex: 0
   Components: []
-  Disabled: 0
+  Disabled: 1
   Invoked: 0
   MethodIndex: 0
   ObjectiveBool: 0
@@ -57437,7 +57463,7 @@ MonoBehaviour:
   targetEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: StopSpeak
         m_Mode: 1
@@ -60240,11 +60266,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 886e9f5a19fa34d4da49438902ea7725, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.886347
+      value: 14.55
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 886e9f5a19fa34d4da49438902ea7725, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 785.5602
+      value: 787.57
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 886e9f5a19fa34d4da49438902ea7725, type: 3}
       propertyPath: m_LocalRotation.w
@@ -60383,6 +60409,10 @@ PrefabInstance:
       value: -103.855
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 886e9f5a19fa34d4da49438902ea7725, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 886e9f5a19fa34d4da49438902ea7725, type: 3}
+    - target: {fileID: 5866666021909216657, guid: 886e9f5a19fa34d4da49438902ea7725, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7bd3c8ed0a7dad44aa95337902315fe5, type: 2}
@@ -60487,7 +60517,7 @@ MonoBehaviour:
   ShowKeywordFilterFouldout: 0
   ShowNodeSpecificSettings: 1
   SetupRouteButtons: 0
-  LastSelectedUID: cafc15ad-94e0-4f96-bae6-3a59fbe3ca59
+  LastSelectedUID: 7cbb45ff-2ea6-4cae-9acf-fa064ae36523
   ShowUIAndTextSettings: 0
   ShowTextDisplayModeSettings: 0
   ShowGeneralConditionsSettings: 1
@@ -60501,6 +60531,71 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 886e9f5a19fa34d4da49438902ea7725, type: 3}
   m_PrefabInstance: {fileID: 1688564189}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1688564194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688564190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b248f1486d7c145a3890af95549505, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1688564193}
+--- !u!114 &1688564195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688564190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60ad5018a902733498f63a3b7bb5cd81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1688564193}
+--- !u!114 &1688564196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688564190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1868eb283c5a66448bd7d5eec8dfb6ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1688564193}
+--- !u!114 &1688564197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688564190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a74747acf27a940b82cc519d212dfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1688564193}
+--- !u!114 &1688564198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688564190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05414acd7b8430d45b3811706920cd48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1688564193}
 --- !u!1 &1689512892
 GameObject:
   m_ObjectHideFlags: 0
@@ -61374,7 +61469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722279383}
   m_LocalRotation: {x: -0.0028732787, y: 0.05885622, z: 0.00022614747, w: 0.9982623}
-  m_LocalPosition: {x: -0.87, y: -0.3, z: 3.5}
+  m_LocalPosition: {x: -0.74, y: -0.29, z: 2.32}
   m_LocalScale: {x: 0.22514464, y: 0.22514464, z: 0.22514464}
   m_Children: []
   m_Father: {fileID: 1688564191}
@@ -63662,7 +63757,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: SpeakNow
         m_Mode: 1
@@ -63673,7 +63768,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 0
+        m_CallState: 2
   TargetGameObject: {fileID: 0}
   timeUseMethod: 0
   UseTime: 0
@@ -67850,7 +67945,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
         m_MethodName: SpeakNow
         m_Mode: 1
@@ -67926,7 +68021,7 @@ MonoBehaviour:
   targetEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1517750689}
+      - m_Target: {fileID: 1688564195}
         m_TargetAssemblyTypeName: pointRiver, Assembly-CSharp
         m_MethodName: point
         m_Mode: 1
@@ -70231,7 +70326,7 @@ MonoBehaviour:
   targetEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1517750690}
+      - m_Target: {fileID: 1688564196}
         m_TargetAssemblyTypeName: pointForest, Assembly-CSharp
         m_MethodName: point
         m_Mode: 1
@@ -73244,9 +73339,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517750687}
+      - m_Target: {fileID: 1688564198}
         m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
-        m_MethodName: SpeakNow
+        m_MethodName: StopSpeak
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

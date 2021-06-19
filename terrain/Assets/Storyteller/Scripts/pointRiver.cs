@@ -8,6 +8,7 @@ public class pointRiver : MonoBehaviour
 
     public void point()
     {
+        animator = GetComponent<Animator>();
         animator.SetBool("pointRiver", true);
     }
 }
