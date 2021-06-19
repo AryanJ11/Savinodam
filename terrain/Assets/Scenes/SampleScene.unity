@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.47634584, g: 0.5290358, b: 0.6155585, a: 1}
+  m_IndirectSpecularColor: {r: 0.4763447, g: 0.5290356, b: 0.61555827, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10561,6 +10561,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
       propertyPath: m_Name
       value: Student_sitting (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
@@ -31919,6 +31923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Student_sitting (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
 --- !u!4 &946826899 stripped
@@ -33482,6 +33490,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
       propertyPath: m_Name
       value: Student_sitting (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
@@ -43997,7 +44009,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1182331907
 Transform:
   m_ObjectHideFlags: 0
@@ -46395,7 +46407,19 @@ MonoBehaviour:
   serializedMethods: []
   targetEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1313132283}
+        m_TargetAssemblyTypeName: doSit, Assembly-CSharp
+        m_MethodName: SitNow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TargetGameObject: {fileID: 0}
   timeUseMethod: 0
   UseTime: 0
@@ -47755,7 +47779,7 @@ MonoBehaviour:
   ShowKeywordFilterFouldout: 0
   ShowNodeSpecificSettings: 1
   SetupRouteButtons: 0
-  LastSelectedUID: f53612f5-813f-4afc-9c98-d82b4f01c13c
+  LastSelectedUID: 33c186d4-b4f2-4299-8369-5dc1e315ee1f
   ShowUIAndTextSettings: 1
   ShowTextDisplayModeSettings: 0
   ShowGeneralConditionsSettings: 1
@@ -47764,6 +47788,19 @@ MonoBehaviour:
   TextColour: {r: 1, g: 1, b: 1, a: 1}
   AutoStartAllConditionsByDefault: 0
   UpdateUID: 
+--- !u!114 &1313132283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313132275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33efb101242d19f498cb4f689e5201ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1313132284}
 --- !u!95 &1313132284
 Animator:
   serializedVersion: 3
@@ -52681,6 +52718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Student_sitting
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
 --- !u!4 &1468923840 stripped
@@ -53822,6 +53863,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
       propertyPath: m_Name
       value: Student_sitting (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
@@ -57407,6 +57452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Student_sitting (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
 --- !u!4 &1617616616 stripped
@@ -57768,6 +57817,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
       propertyPath: m_Name
       value: Student_sitting (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
@@ -58917,6 +58970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Student_sitting (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
 --- !u!4 &1678120391 stripped
@@ -59070,6 +59127,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
       propertyPath: m_Name
       value: Student_sitting (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858133f97fbaa1840b0f38b5695278a7, type: 3}

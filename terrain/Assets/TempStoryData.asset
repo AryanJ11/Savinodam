@@ -17,7 +17,7 @@ MonoBehaviour:
   UID: 12d46403-4242-44b4-b380-5d48f66917cf
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 12
+  IndexInList: 10
   NodeRect:
     serializedVersion: 2
     x: 9774.403
@@ -91,7 +91,7 @@ MonoBehaviour:
   UID: 7caa39e7-1b54-4a2c-a782-dc09a0681d48
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 20
+  IndexInList: 18
   NodeRect:
     serializedVersion: 2
     x: 6026.949
@@ -164,7 +164,7 @@ MonoBehaviour:
   UID: ab77f61b-f0fe-4703-9e15-f106ab5456ac
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 3
+  IndexInList: 1
   NodeRect:
     serializedVersion: 2
     x: 6576.519
@@ -234,7 +234,7 @@ MonoBehaviour:
   UID: cafc15ad-94e0-4f96-bae6-3a59fbe3ca59
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 7
+  IndexInList: 5
   NodeRect:
     serializedVersion: 2
     x: 5090.211
@@ -306,7 +306,7 @@ MonoBehaviour:
   UID: 083d44d5-1e20-4434-a268-1479b8fe7a27
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 13
+  IndexInList: 11
   NodeRect:
     serializedVersion: 2
     x: 708.4719
@@ -511,7 +511,7 @@ MonoBehaviour:
   UID: c0b04a31-018a-4fff-91a4-7fe936880f40
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 4
+  IndexInList: 2
   NodeRect:
     serializedVersion: 2
     x: 8097.117
@@ -581,7 +581,7 @@ MonoBehaviour:
   UID: 69d79390-24ac-47fa-b071-995c3c3dbd28
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 1
+  IndexInList: 0
   NodeRect:
     serializedVersion: 2
     x: 1961.0942
@@ -653,7 +653,7 @@ MonoBehaviour:
   UID: d7321f72-03ec-48f1-af42-d7829865aab4
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 15
+  IndexInList: 13
   NodeRect:
     serializedVersion: 2
     x: 2881.5442
@@ -736,7 +736,7 @@ MonoBehaviour:
   UID: f1da4c1d-c09d-4b9b-8908-2102188d845d
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 23
+  IndexInList: 20
   NodeRect:
     serializedVersion: 2
     x: 1629.2682
@@ -808,7 +808,7 @@ MonoBehaviour:
   UID: 7ae1815a-cede-47c3-bf70-35899fe93a65
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 8
+  IndexInList: 6
   NodeRect:
     serializedVersion: 2
     x: 6987.91
@@ -889,12 +889,10 @@ MonoBehaviour:
   Scenes:
   - SceneName: dialogue
     UID: 2b33a32c-3b76-4d6d-a415-ace6cbc2aacd
-    Pan: {x: 98.77792, y: 278.74283}
-    Zoom: 0.28
+    Pan: {x: 1261.7803, y: -263.98422}
+    Zoom: 0.53999996
     NodeElements:
-    - {fileID: 676233016257586096}
     - {fileID: -2297206141622679995}
-    - {fileID: 8231420985822056828}
     - {fileID: -7947501165232089086}
     - {fileID: -2673418591584733314}
     - {fileID: 7431040243309270495}
@@ -914,9 +912,11 @@ MonoBehaviour:
     - {fileID: 6416325302862801226}
     - {fileID: -8195252937247352855}
     - {fileID: 2065116331865369977}
-    - {fileID: 1781623242325795168}
     - {fileID: -838851941778986031}
     - {fileID: 140788234517502979}
+    - {fileID: 1781623242325795168}
+    - {fileID: 8231420985822056828}
+    - {fileID: 676233016257586096}
     Characters:
     - {fileID: 1781623242325795168}
     - {fileID: -4566672859299669634}
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   UID: 7cbb45ff-2ea6-4cae-9acf-fa064ae36523
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 24
+  IndexInList: 21
   NodeRect:
     serializedVersion: 2
     x: 2176.9456
@@ -1077,7 +1077,7 @@ MonoBehaviour:
   UID: a19e06e1-fab8-4943-8a13-4dec16efa128
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 6
+  IndexInList: 4
   NodeRect:
     serializedVersion: 2
     x: 10203.979
@@ -1139,7 +1139,7 @@ MonoBehaviour:
   UID: 33c186d4-b4f2-4299-8369-5dc1e315ee1f
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 0
+  IndexInList: 24
   NodeRect:
     serializedVersion: 2
     x: 1731.9558
@@ -1400,7 +1400,7 @@ MonoBehaviour:
   UID: 56146373-2766-4a90-a431-09eb7c9620e6
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 21
+  IndexInList: 19
   NodeRect:
     serializedVersion: 2
     x: 1011.9928
@@ -1472,7 +1472,7 @@ MonoBehaviour:
   UID: 67bbd074-5a35-4cd2-b255-cd15d560fe1d
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 9
+  IndexInList: 7
   NodeRect:
     serializedVersion: 2
     x: 7627.528
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   UID: 234dacf5-3797-4d34-a7e6-3fceb7752de3
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 11
+  IndexInList: 9
   NodeRect:
     serializedVersion: 2
     x: 8818.547
@@ -1620,7 +1620,7 @@ MonoBehaviour:
   UID: a8f4a483-a8a8-46d0-8822-f49b8e1d08e4
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 16
+  IndexInList: 14
   NodeRect:
     serializedVersion: 2
     x: 3313.1572
@@ -1693,7 +1693,7 @@ MonoBehaviour:
   UID: 4fe1064f-367c-43f0-835b-617b07e8ba20
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 14
+  IndexInList: 12
   NodeRect:
     serializedVersion: 2
     x: 1261.085
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   UID: 59beeb44-0a37-4a8c-8ca3-3464bb55b8e6
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 19
+  IndexInList: 17
   NodeRect:
     serializedVersion: 2
     x: 5473.208
@@ -1837,7 +1837,7 @@ MonoBehaviour:
   UID: a7a741b6-c716-47a3-91bd-dd855ed256a3
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 10
+  IndexInList: 8
   NodeRect:
     serializedVersion: 2
     x: 8375.766
@@ -1910,7 +1910,7 @@ MonoBehaviour:
   UID: 6fa01490-5e9c-4c8e-9972-2f8799498cce
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 17
+  IndexInList: 15
   NodeRect:
     serializedVersion: 2
     x: 3879.979
@@ -1986,7 +1986,7 @@ MonoBehaviour:
   UID: fa344c40-ea72-44e0-9333-6712d3e4c71f
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 5
+  IndexInList: 3
   NodeRect:
     serializedVersion: 2
     x: 9364.262
@@ -2056,7 +2056,7 @@ MonoBehaviour:
   UID: 11368a16-af54-46e3-95c5-f8c5a745dbc5
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 2
+  IndexInList: 23
   NodeRect:
     serializedVersion: 2
     x: 2551.8171
@@ -2125,7 +2125,7 @@ MonoBehaviour:
   UID: 8f5215ac-0ba9-40b5-890e-c4ae2da04606
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 18
+  IndexInList: 16
   NodeRect:
     serializedVersion: 2
     x: 4514.2007
