@@ -10,4 +10,8 @@ public class pointCow : MonoBehaviour
     {
         animator.SetBool("pointCow", true);
     }
+    public void stop_point()
+    {
+        animator.SetBool("pointCow", false);
+    }
 }

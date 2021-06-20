@@ -9,5 +9,9 @@ public class pointTree: MonoBehaviour
     {
         animator.SetBool("pointTree", true);
     }
+    public void stop_point()
+    {
+        animator.SetBool("pointTree", false);
+    }
 
 }

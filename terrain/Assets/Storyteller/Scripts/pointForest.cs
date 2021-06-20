@@ -8,6 +8,10 @@ public class pointForest : MonoBehaviour
 
     public void point()
     {
-        animator.SetBool("pointForest", true);
+        animator.SetBool("pontForest", true);
+    }
+    public void stop_point()
+    {
+        animator.SetBool("pontForest", false);
     }
 }

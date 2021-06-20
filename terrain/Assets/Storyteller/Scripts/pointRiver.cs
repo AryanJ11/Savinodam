@@ -11,4 +11,8 @@ public class pointRiver : MonoBehaviour
         animator = GetComponent<Animator>();
         animator.SetBool("pointRiver", true);
     }
+    public void stop_point()
+    {
+        animator.SetBool("pointRiver", false);
+    }
 }
