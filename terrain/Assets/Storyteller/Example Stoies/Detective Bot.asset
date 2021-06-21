@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8157594382937767374
+--- !u!114 &-6739271140202537659
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 24_Dialogue
+  m_Name: 22_Dialogue
   m_EditorClassIdentifier: 
-  Name: 24_Dialogue
+  Name: 22_Dialogue
   StoryProject: {fileID: 11400000}
-  UID: 12d46403-4242-44b4-b380-5d48f66917cf
+  UID: 234dacf5-3797-4d34-a7e6-3fceb7752de3
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 6
+  IndexInList: 12
   NodeRect:
     serializedVersion: 2
-    x: 9773.153
-    y: 997.25256
+    x: 7897.4946
+    y: 1000.42224
     width: 330
     height: 120
   InputArea:
@@ -37,167 +37,20 @@ MonoBehaviour:
     width: 0
     height: 0
   NodesIMadeConnectionsTo:
-  - {fileID: -476137669360723621}
+  - {fileID: -359235270903631006}
   NodesThatMadeAConnectionToMe:
-  - {fileID: 3294750315806155944}
+  - {fileID: 4265381841322025077}
   UsesText: 1
   HasInputArea: 1
   HasOutputArea: 1
   ChainingColour: {r: 1, g: 1, b: 1, a: 1}
   UsesTime: 1
   MaxMinutes: 5
-  DelayTimeInSeconds: 1.0507812
-  TimeInSeconds: 4
-  NodeDurationSum: 125.37878
-  StartingTime: 121.37878
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - "\u0935\u0928\u092E\u094D \u0905\u0924\u093F \u0938\u0941\u0928\u094D\u0926\u0930\u092E\u094D
-    \u0905\u0938\u094D\u0924\u093F \u0964 \r\n\u201C\u0935\u0928 \u092C\u0939\u0941\u0924
-    \u0938\u0941\u0928\u094D\u0926\u0930 \u0939\u0948\u201D\r\n"
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  VoiceRecording: {fileID: 0}
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  storyboardImageAreaSize: {x: 330, y: 120}
-  _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &-6634357094568511430
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 9_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 9_Dialogue
-  StoryProject: {fileID: 11400000}
-  UID: a8f4a483-a8a8-46d0-8822-f49b8e1d08e4
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 17
-  NodeRect:
-    serializedVersion: 2
-    x: 3369.1755
-    y: 970.0366
-    width: 330
-    height: 120
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: 942989962130819224}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 8821642949682763349}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 5
-  DelayTimeInSeconds: 3.3
-  TimeInSeconds: 6
-  NodeDurationSum: 47.05
-  StartingTime: 41.05
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - "\u0924\u0935 \u0928\u093E\u092E \u0915\u093F\u092E\u094D ?\" \u0924\u0941\u092E\u094D\u0939\u093E\u0930\u093E
-    \u0928\u093E\u092E \u0915\u094D\u092F\u093E \u0939\u0948?\" "
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  VoiceRecording: {fileID: 0}
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  storyboardImageAreaSize: {x: 330, y: 120}
-  _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &-4507080512924146397
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 12_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 12_Dialogue
-  StoryProject: {fileID: 11400000}
-  UID: 8f5215ac-0ba9-40b5-890e-c4ae2da04606
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 19
-  NodeRect:
-    serializedVersion: 2
-    x: 4517.5894
-    y: 962.4814
-    width: 330
-    height: 120
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: 89586263017561591}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 942989962130819224}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 5
-  DelayTimeInSeconds: 1.777533
+  DelayTimeInSeconds: 2.6269531
   TimeInSeconds: 3
-  NodeDurationSum: 64.62753
-  StartingTime: 61.627533
-  CallingNode: {fileID: 3435851257728782653}
+  NodeDurationSum: 95.40811
+  StartingTime: 92.40811
+  CallingNode: {fileID: 1074936844477728065}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -207,313 +60,19 @@ MonoBehaviour:
   pushTime: 1
   OverrideStartTime: 0
   LocalizedText:
-  - "\u090F\u0937\u093E \u0928\u0926\u0940 \u0964 \r\n\u201C\u092F\u0939 \u0928\u0926\u0940
-    \u0939\u0948\u201D| \r\n"
+  - "laLD`r &  ,\"k% oua A\r\nfganh  &  ;g ou gS A \r\n"
   Expand: 1
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: ff6004fa74d9c0d43bb4e7d59eca4e35, type: 3}
   StoryboardImagePath: 
   VoiceRecording: {fileID: 0}
   LocalizedVoiceRecordings:
   - {fileID: 0}
   storyboardImageAreaSize: {x: 330, y: 120}
   _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &-3345987888694437539
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 18_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 18_Dialogue
-  StoryProject: {fileID: 11400000}
-  UID: 7ae1815a-cede-47c3-bf70-35899fe93a65
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 13
-  NodeRect:
-    serializedVersion: 2
-    x: 6984.2065
-    y: 937.7209
-    width: 330
-    height: 120
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: -2813297763271997447}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 8431104139863514289}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 5
-  DelayTimeInSeconds: 1.815953
-  TimeInSeconds: 6
-  NodeDurationSum: 91.13717
-  StartingTime: 85.13717
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - "\u0935\u0943\u0915\u094D\u0937\u093E: \u0905\u0924\u093F \u0932\u093E\u092D\u0926\u093E\u092F\u0915\u093E:
-    \u0938\u0928\u094D\u0924\u093F \u0964\r\n\u201C\u092A\u0947\u095C \u092C\u0939\u0941\u0924 
-    \u0932\u093E\u092D\u0926\u093E\u092F\u0915 \u0939\u094B\u0924\u0947 \u0939\u0948\u0902\u201D\r\n"
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  VoiceRecording: {fileID: 0}
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  storyboardImageAreaSize: {x: 330, y: 120}
-  _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &-2813297763271997447
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 19_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 19_Dialogue
-  StoryProject: {fileID: 11400000}
-  UID: 67bbd074-5a35-4cd2-b255-cd15d560fe1d
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 21
-  NodeRect:
-    serializedVersion: 2
-    x: 7626.1763
-    y: 933.9847
-    width: 330
-    height: 120
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: 3140816425364503353}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: -3345987888694437539}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 5
-  DelayTimeInSeconds: 2.0490234
-  TimeInSeconds: 5
-  NodeDurationSum: 98.186195
-  StartingTime: 93.186195
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - "\u0924\u094C \u0915\u094C? | \r\n\u201C\u0935\u0947 \u0926\u094B \u0915\u094D\u092F\u093E
-    \u0939\u0948\u0902?\u201D | \r\n\u0924\u094C \u092C\u0932\u093F\u0935\u0926\u094C
-    \u0938\u094D\u0924\u0903| \r\n\u201C\u0935\u0939 \u0926\u094B \u092C\u0948\u0932
-    \u0939\u0948\u0902\u201D| \r\n"
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  VoiceRecording: {fileID: 0}
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  storyboardImageAreaSize: {x: 330, y: 120}
-  _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &-2381608312259596905
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 15_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 15_Dialogue
-  StoryProject: {fileID: 11400000}
-  UID: 59beeb44-0a37-4a8c-8ca3-3464bb55b8e6
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 14
-  NodeRect:
-    serializedVersion: 2
-    x: 5470.6064
-    y: 954.48694
-    width: 330
-    height: 120
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: -862697835180320784}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 89586263017561591}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 5
-  DelayTimeInSeconds: 2.166766
-  TimeInSeconds: 5
-  NodeDurationSum: 75.64006
-  StartingTime: 70.64006
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - "\u0928\u0926\u0940 \u0905\u0938\u094D\u092E\u092D\u094D\u092F\u092E\u094D \u091C\u0932\u092E\u094D
-    \u0926\u0926\u093E\u0924\u093F \u0964 \r\n\u201C\u0928\u0926\u0940 \u0939\u092E\u0947
-    \u091C\u0932 \u0926\u0947\u0924\u0940 \u0939\u0948\u201D|\r\n"
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  VoiceRecording: {fileID: 0}
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  storyboardImageAreaSize: {x: 330, y: 120}
-  _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &-1969619951976763308
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 656144476, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 4_Action
-  m_EditorClassIdentifier: 
-  Name: 4_Action
-  StoryProject: {fileID: 11400000}
-  UID: 4fe1064f-367c-43f0-835b-617b07e8ba20
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 10
-  NodeRect:
-    serializedVersion: 2
-    x: 1259.696
-    y: 1052.8013
-    width: 150
-    height: 50
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: 8697944244611738864}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 3435851257728782653}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 1
-  DelayTimeInSeconds: 9.6
-  TimeInSeconds: 1
-  NodeDurationSum: 10.6
-  StartingTime: 9.6
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - Head Movement Basic
-  Expand: 0
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  _textAreaScrollPosition: {x: 0, y: 0}
-  _textAreaHeight: 0
-  storyboardImageAreaSize: {x: 330, y: 120}
---- !u!114 &-1471278623359283214
+--- !u!114 &-6185167587515279260
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -530,11 +89,11 @@ MonoBehaviour:
   UID: 69d79390-24ac-47fa-b071-995c3c3dbd28
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 1
+  IndexInList: 15
   NodeRect:
     serializedVersion: 2
-    x: 1961.0942
-    y: 233.60123
+    x: 1888.5942
+    y: 326.1012
     width: 330
     height: 120
   InputArea:
@@ -549,21 +108,20 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: 2492961615138926116}
+  NodesIMadeConnectionsTo: []
   NodesThatMadeAConnectionToMe:
-  - {fileID: 396864537047468851}
+  - {fileID: -5614737077114905574}
   UsesText: 1
   HasInputArea: 1
   HasOutputArea: 1
   ChainingColour: {r: 1, g: 1, b: 1, a: 1}
   UsesTime: 1
   MaxMinutes: 5
-  DelayTimeInSeconds: 31.65
+  DelayTimeInSeconds: 33.173634
   TimeInSeconds: 1
-  NodeDurationSum: 50.15
-  StartingTime: 49.15
-  CallingNode: {fileID: 1470340863246260760}
+  NodeDurationSum: 38.520897
+  StartingTime: 37.520897
+  CallingNode: {fileID: 31032998600942236}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -585,7 +143,7 @@ MonoBehaviour:
   - {fileID: 0}
   storyboardImageAreaSize: {x: 330, y: 120}
   _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &-862697835180320784
+--- !u!114 &-5917464908631166948
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -595,18 +153,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 16_Dialogue
+  m_Name: 15_Dialogue
   m_EditorClassIdentifier: 
-  Name: 16_Dialogue
+  Name: 15_Dialogue
   StoryProject: {fileID: 11400000}
-  UID: 7caa39e7-1b54-4a2c-a782-dc09a0681d48
+  UID: 59beeb44-0a37-4a8c-8ca3-3464bb55b8e6
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 20
+  IndexInList: 9
   NodeRect:
     serializedVersion: 2
-    x: 6026.949
-    y: 940.9176
+    x: 5070.6064
+    y: 974.48694
     width: 330
     height: 120
   InputArea:
@@ -622,20 +180,20 @@ MonoBehaviour:
     width: 0
     height: 0
   NodesIMadeConnectionsTo:
-  - {fileID: 8431104139863514289}
+  - {fileID: 2126326455868585722}
   NodesThatMadeAConnectionToMe:
-  - {fileID: -2381608312259596905}
+  - {fileID: -1678062291261860370}
   UsesText: 1
   HasInputArea: 1
   HasOutputArea: 1
   ChainingColour: {r: 1, g: 1, b: 1, a: 1}
   UsesTime: 1
   MaxMinutes: 5
-  DelayTimeInSeconds: 1.7253878
-  TimeInSeconds: 3
-  NodeDurationSum: 80.36545
-  StartingTime: 77.36545
-  CallingNode: {fileID: 3435851257728782653}
+  DelayTimeInSeconds: 2.166766
+  TimeInSeconds: 5
+  NodeDurationSum: 61.1943
+  StartingTime: 56.1943
+  CallingNode: {fileID: 1074936844477728065}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -645,8 +203,79 @@ MonoBehaviour:
   pushTime: 1
   OverrideStartTime: 0
   LocalizedText:
-  - "\u090F\u0937\u0903 \u0935\u0943\u0915\u094D\u0937\u0903| \r\n\u201C\u092F\u0939
-    \u092A\u0947\u095C \u0939\u0948\u201D | \r\n"
+  - "laLD`r &  unh vLeH;e~ tye~ nnkfr A \r\nfganh  &  unh ges ty nsrh gS A\r\n\r\n"
+  Expand: 1
+  ShowImageArea: 0
+  SoundEffect: {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 6b3804ed6969d7348a5298656abcce4b, type: 3}
+  StoryboardImagePath: 
+  VoiceRecording: {fileID: 0}
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  storyboardImageAreaSize: {x: 330, y: 120}
+  _textAreaScrollView: {x: 0, y: 0}
+--- !u!114 &-5614737077114905574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
+  m_Name: 6_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 6_Dialogue
+  StoryProject: {fileID: 11400000}
+  UID: 56146373-2766-4a90-a431-09eb7c9620e6
+  Drag: {fileID: 0}
+  UseCustomDragArea: 0
+  IndexInList: 2
+  NodeRect:
+    serializedVersion: 2
+    x: 1098.451
+    y: 298.6068
+    width: 330
+    height: 120
+  InputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OutputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  NodesIMadeConnectionsTo:
+  - {fileID: -6185167587515279260}
+  NodesThatMadeAConnectionToMe:
+  - {fileID: 31032998600942236}
+  UsesText: 1
+  HasInputArea: 1
+  HasOutputArea: 1
+  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
+  UsesTime: 1
+  MaxMinutes: 5
+  DelayTimeInSeconds: 3.3472655
+  TimeInSeconds: 1
+  NodeDurationSum: 4.3472652
+  StartingTime: 3.3472655
+  CallingNode: {fileID: 31032998600942236}
+  Environment: {fileID: 0}
+  Text: 
+  Tag: 
+  Pass: 0
+  MySceneId: 0
+  IOofset: {x: 5, y: 0}
+  pushTime: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - lqIjHkkr
   Expand: 1
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
@@ -658,7 +287,80 @@ MonoBehaviour:
   - {fileID: 0}
   storyboardImageAreaSize: {x: 330, y: 120}
   _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &-476137669360723621
+--- !u!114 &-5168850102993277720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
+  m_Name: 19_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 19_Dialogue
+  StoryProject: {fileID: 11400000}
+  UID: 67bbd074-5a35-4cd2-b255-cd15d560fe1d
+  Drag: {fileID: 0}
+  UseCustomDragArea: 0
+  IndexInList: 10
+  NodeRect:
+    serializedVersion: 2
+    x: 6842.8433
+    y: 990.6513
+    width: 330
+    height: 120
+  InputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OutputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  NodesIMadeConnectionsTo:
+  - {fileID: 4265381841322025077}
+  NodesThatMadeAConnectionToMe:
+  - {fileID: -102121948662880919}
+  UsesText: 1
+  HasInputArea: 1
+  HasOutputArea: 1
+  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
+  UsesTime: 1
+  MaxMinutes: 5
+  DelayTimeInSeconds: 2.0490234
+  TimeInSeconds: 5
+  NodeDurationSum: 80.784676
+  StartingTime: 75.784676
+  CallingNode: {fileID: 1074936844477728065}
+  Environment: {fileID: 0}
+  Text: 
+  Tag: 
+  Pass: 0
+  MySceneId: 0
+  IOofset: {x: 5, y: 0}
+  pushTime: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - "laLD`r &  rkS dkS \\\r\nfganh  &  os nks D;k gSa \\ \r\nlaLD`r &  rkS cfyonkS
+    Lr% A\r\nfganh  &  og nks cSy gSa A\n"
+  Expand: 1
+  ShowImageArea: 0
+  SoundEffect: {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: c57d6cd2ec2fa4f45806b37dc355e15d, type: 3}
+  StoryboardImagePath: 
+  VoiceRecording: {fileID: 0}
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  storyboardImageAreaSize: {x: 330, y: 120}
+  _textAreaScrollView: {x: 0, y: 0}
+--- !u!114 &-3560032408460574690
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -675,11 +377,11 @@ MonoBehaviour:
   UID: a19e06e1-fab8-4943-8a13-4dec16efa128
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 8
+  IndexInList: 1
   NodeRect:
     serializedVersion: 2
-    x: 10203.979
-    y: 1030.9269
+    x: 8843.452
+    y: 1025.6637
     width: 60
     height: 30
   InputArea:
@@ -696,7 +398,7 @@ MonoBehaviour:
     height: 0
   NodesIMadeConnectionsTo: []
   NodesThatMadeAConnectionToMe:
-  - {fileID: -8157594382937767374}
+  - {fileID: -359235270903631006}
   UsesText: 0
   HasInputArea: 1
   HasOutputArea: 0
@@ -707,7 +409,7 @@ MonoBehaviour:
   TimeInSeconds: 1
   NodeDurationSum: 0
   StartingTime: 0
-  CallingNode: {fileID: 3435851257728782653}
+  CallingNode: {fileID: 1074936844477728065}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -720,6 +422,303 @@ MonoBehaviour:
   - 
   continuingCharacter: {fileID: 0}
   sceneID: -1
+--- !u!114 &-2238993157939572883
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
+  m_Name: 8_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 8_Dialogue
+  StoryProject: {fileID: 11400000}
+  UID: d7321f72-03ec-48f1-af42-d7829865aab4
+  Drag: {fileID: 0}
+  UseCustomDragArea: 0
+  IndexInList: 5
+  NodeRect:
+    serializedVersion: 2
+    x: 2822.9905
+    y: 960.9714
+    width: 330
+    height: 120
+  InputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OutputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  NodesIMadeConnectionsTo:
+  - {fileID: 1071823930612870096}
+  NodesThatMadeAConnectionToMe:
+  - {fileID: 1600850673408095353}
+  UsesText: 1
+  HasInputArea: 1
+  HasOutputArea: 1
+  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
+  UsesTime: 1
+  MaxMinutes: 5
+  DelayTimeInSeconds: 2.65
+  TimeInSeconds: 19
+  NodeDurationSum: 27.15
+  StartingTime: 8.15
+  CallingNode: {fileID: 1074936844477728065}
+  Environment: {fileID: 0}
+  Text: 
+  Tag: 
+  Pass: 0
+  MySceneId: 0
+  IOofset: {x: 5, y: 0}
+  pushTime: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - nqfu;k esa dbZ rjg dh Hkk"kk,a cksyh tkrh gSa vkSj gekjs Hkkjr esa Hkh dbZ rjg
+    dh Hkk"kk,a cksyh tkrh gSa- vkt ge vkidks nqfu;k dh lcls iqjkuh Hkk"kk ds ckjs
+    esa i<+kus tk jgs gSa- dgrs gSa dh laLD`r  Hkk"kk ds }kjk gh dbZ Hkk"kk,a cukbZ
+    xbZ gSa
+  Expand: 1
+  ShowImageArea: 0
+  SoundEffect: {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 8f6ee6effa661614e92f29cbd07a304a, type: 3}
+  StoryboardImagePath: 
+  VoiceRecording: {fileID: 0}
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  storyboardImageAreaSize: {x: 330, y: 120}
+  _textAreaScrollView: {x: 0, y: 0}
+--- !u!114 &-1678062291261860370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
+  m_Name: 12_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 12_Dialogue
+  StoryProject: {fileID: 11400000}
+  UID: 8f5215ac-0ba9-40b5-890e-c4ae2da04606
+  Drag: {fileID: 0}
+  UseCustomDragArea: 0
+  IndexInList: 8
+  NodeRect:
+    serializedVersion: 2
+    x: 4517.5894
+    y: 962.4814
+    width: 330
+    height: 120
+  InputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OutputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  NodesIMadeConnectionsTo:
+  - {fileID: -5917464908631166948}
+  NodesThatMadeAConnectionToMe:
+  - {fileID: 6309390956145987046}
+  UsesText: 1
+  HasInputArea: 1
+  HasOutputArea: 1
+  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
+  UsesTime: 1
+  MaxMinutes: 5
+  DelayTimeInSeconds: 1.777533
+  TimeInSeconds: 3
+  NodeDurationSum: 54.027534
+  StartingTime: 51.027534
+  CallingNode: {fileID: 1074936844477728065}
+  Environment: {fileID: 0}
+  Text: 
+  Tag: 
+  Pass: 0
+  MySceneId: 0
+  IOofset: {x: 5, y: 0}
+  pushTime: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - "laLD`r &  ,\"kk unh A \r\nfganh  &  ;g unh gS A\r\n \r\n"
+  Expand: 1
+  ShowImageArea: 0
+  SoundEffect: {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 586ba6a1ee7b8f948a50b232b71a99e5, type: 3}
+  StoryboardImagePath: 
+  VoiceRecording: {fileID: 0}
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  storyboardImageAreaSize: {x: 330, y: 120}
+  _textAreaScrollView: {x: 0, y: 0}
+--- !u!114 &-359235270903631006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
+  m_Name: 24_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 24_Dialogue
+  StoryProject: {fileID: 11400000}
+  UID: 12d46403-4242-44b4-b380-5d48f66917cf
+  Drag: {fileID: 0}
+  UseCustomDragArea: 0
+  IndexInList: 17
+  NodeRect:
+    serializedVersion: 2
+    x: 8317.891
+    y: 973.56836
+    width: 330
+    height: 120
+  InputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OutputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  NodesIMadeConnectionsTo:
+  - {fileID: -3560032408460574690}
+  NodesThatMadeAConnectionToMe:
+  - {fileID: -6739271140202537659}
+  UsesText: 1
+  HasInputArea: 1
+  HasOutputArea: 1
+  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
+  UsesTime: 1
+  MaxMinutes: 5
+  DelayTimeInSeconds: 1.0507812
+  TimeInSeconds: 4
+  NodeDurationSum: 100.45889
+  StartingTime: 96.45889
+  CallingNode: {fileID: 1074936844477728065}
+  Environment: {fileID: 0}
+  Text: 
+  Tag: 
+  Pass: 0
+  MySceneId: 0
+  IOofset: {x: 5, y: 0}
+  pushTime: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - "laLD`r &  oue~ vfr lqUnje~ vfLr A \r\nfganh  &  ou cgqr lqUnj gS A\r\n"
+  Expand: 1
+  ShowImageArea: 0
+  SoundEffect: {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 9562267e133239e45b1e0348016db691, type: 3}
+  StoryboardImagePath: 
+  VoiceRecording: {fileID: 0}
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  storyboardImageAreaSize: {x: 330, y: 120}
+  _textAreaScrollView: {x: 0, y: 0}
+--- !u!114 &-102121948662880919
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
+  m_Name: 18_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 18_Dialogue
+  StoryProject: {fileID: 11400000}
+  UID: 7ae1815a-cede-47c3-bf70-35899fe93a65
+  Drag: {fileID: 0}
+  UseCustomDragArea: 0
+  IndexInList: 14
+  NodeRect:
+    serializedVersion: 2
+    x: 6183.0474
+    y: 999.1495
+    width: 330
+    height: 120
+  InputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OutputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  NodesIMadeConnectionsTo:
+  - {fileID: -5168850102993277720}
+  NodesThatMadeAConnectionToMe:
+  - {fileID: 2126326455868585722}
+  UsesText: 1
+  HasInputArea: 1
+  HasOutputArea: 1
+  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
+  UsesTime: 1
+  MaxMinutes: 5
+  DelayTimeInSeconds: 1.815953
+  TimeInSeconds: 6
+  NodeDurationSum: 73.73565
+  StartingTime: 67.73565
+  CallingNode: {fileID: 1074936844477728065}
+  Environment: {fileID: 0}
+  Text: 
+  Tag: 
+  Pass: 0
+  MySceneId: 0
+  IOofset: {x: 5, y: 0}
+  pushTime: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - 'laLD`r &  o`{kk% vfr ykHknk;dk: lfUr A
+
+    fganh  &  isM+ cgqr  ykHknk;d gksrs
+    gSa A
+
+
+'
+  Expand: 1
+  ShowImageArea: 0
+  SoundEffect: {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 5bae880a930644949a3a3871e0cdf07c, type: 3}
+  StoryboardImagePath: 
+  VoiceRecording: {fileID: 0}
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  storyboardImageAreaSize: {x: 330, y: 120}
+  _textAreaScrollView: {x: 0, y: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,49 +735,42 @@ MonoBehaviour:
   Name: Detective Bot
   Info: 
   CharacterNodes:
-  - {fileID: 3435851257728782653}
-  - {fileID: 1470340863246260760}
+  - {fileID: 1074936844477728065}
+  - {fileID: 31032998600942236}
   EnvironmentNodes: []
   RouteNodes: []
   Scenes:
   - SceneName: dialogue
     UID: 2b33a32c-3b76-4d6d-a415-ace6cbc2aacd
-    Pan: {x: 1476.2817, y: 753.0762}
-    Zoom: 0.8399998
+    Pan: {x: 1355.6067, y: 659.78687}
+    Zoom: 0.65999997
     NodeElements:
-    - {fileID: 396864537047468851}
-    - {fileID: -1471278623359283214}
-    - {fileID: 2492961615138926116}
-    - {fileID: 8431104139863514289}
-    - {fileID: 3140816425364503353}
-    - {fileID: 3294750315806155944}
-    - {fileID: -8157594382937767374}
-    - {fileID: 3502173003562947709}
-    - {fileID: -476137669360723621}
-    - {fileID: 3435851257728782653}
-    - {fileID: -1969619951976763308}
-    - {fileID: 1470340863246260760}
-    - {fileID: 2119256584027795362}
-    - {fileID: -3345987888694437539}
-    - {fileID: -2381608312259596905}
-    - {fileID: 89586263017561591}
-    - {fileID: 4487912418990903798}
-    - {fileID: -6634357094568511430}
-    - {fileID: 942989962130819224}
-    - {fileID: -4507080512924146397}
-    - {fileID: -862697835180320784}
-    - {fileID: -2813297763271997447}
-    - {fileID: 8948401965811273218}
-    - {fileID: 8821642949682763349}
-    - {fileID: 8697944244611738864}
+    - {fileID: 1074936844477728065}
+    - {fileID: -3560032408460574690}
+    - {fileID: -5614737077114905574}
+    - {fileID: 8712057297598178525}
+    - {fileID: 1600850673408095353}
+    - {fileID: -2238993157939572883}
+    - {fileID: 1071823930612870096}
+    - {fileID: 6309390956145987046}
+    - {fileID: -1678062291261860370}
+    - {fileID: -5917464908631166948}
+    - {fileID: -5168850102993277720}
+    - {fileID: 4265381841322025077}
+    - {fileID: -6739271140202537659}
+    - {fileID: 2126326455868585722}
+    - {fileID: -102121948662880919}
+    - {fileID: -6185167587515279260}
+    - {fileID: 31032998600942236}
+    - {fileID: -359235270903631006}
     Characters:
-    - {fileID: 1470340863246260760}
-    - {fileID: 3435851257728782653}
+    - {fileID: 31032998600942236}
+    - {fileID: 1074936844477728065}
     Environments: []
     Overview: Scene 1
     Theme: no Theme
     Plot: no plot
-    Duration: 125.37878
+    Duration: 100.45889
     ShowProjectInfo: 1
     ShowGrid: 1
     alwaysShowNodeNames: 0
@@ -796,7 +788,7 @@ MonoBehaviour:
   Summary: ' Summary'
   TempName: Detective Bot
   TimeStamp:
-    Stamp: 18-06-2021 22:43:54
+    Stamp: 21-06-2021 13:18:59
   CreatedDataFolders: 1
   ProjectDataFolder: {fileID: 102900000, guid: c437b60ff33fc1f4ba7c8476996d87ad, type: 3}
   AudioFileFolder: {fileID: 102900000, guid: 2babed09752fd914d872d24734b1141a, type: 3}
@@ -841,225 +833,7 @@ MonoBehaviour:
   LanguageIndex: 0
   DefaultLanguageIndex: 0
   UpdatedLanguage: 1
---- !u!114 &89586263017561591
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 656144476, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 13_Action
-  m_EditorClassIdentifier: 
-  Name: 13_Action
-  StoryProject: {fileID: 11400000}
-  UID: cafc15ad-94e0-4f96-bae6-3a59fbe3ca59
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 15
-  NodeRect:
-    serializedVersion: 2
-    x: 5090.211
-    y: 983.59033
-    width: 150
-    height: 200
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: -2381608312259596905}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: -4507080512924146397}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 1
-  DelayTimeInSeconds: 1.8457637
-  TimeInSeconds: 2
-  NodeDurationSum: 68.4733
-  StartingTime: 66.4733
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - 'Point to the river
-
-'
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  _textAreaScrollPosition: {x: 0, y: 0}
-  _textAreaHeight: 0
-  storyboardImageAreaSize: {x: 330, y: 120}
---- !u!114 &396864537047468851
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 656144476, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 7_Action
-  m_EditorClassIdentifier: 
-  Name: 7_Action
-  StoryProject: {fileID: 11400000}
-  UID: 33c186d4-b4f2-4299-8369-5dc1e315ee1f
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 0
-  NodeRect:
-    serializedVersion: 2
-    x: 1731.9558
-    y: 257.49606
-    width: 150
-    height: 50
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: -1471278623359283214}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 3502173003562947709}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 1
-  DelayTimeInSeconds: 1.75
-  TimeInSeconds: 1
-  NodeDurationSum: 17.5
-  StartingTime: 16.5
-  CallingNode: {fileID: 1470340863246260760}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - Sit
-  Expand: 0
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  _textAreaScrollPosition: {x: 0, y: 0}
-  _textAreaHeight: 0
-  storyboardImageAreaSize: {x: 330, y: 120}
---- !u!114 &942989962130819224
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 11_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 11_Dialogue
-  StoryProject: {fileID: 11400000}
-  UID: 6fa01490-5e9c-4c8e-9972-2f8799498cce
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 18
-  NodeRect:
-    serializedVersion: 2
-    x: 3881.229
-    y: 978.96204
-    width: 330
-    height: 120
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: -4507080512924146397}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: -6634357094568511430}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 5
-  DelayTimeInSeconds: 4.8
-  TimeInSeconds: 8
-  NodeDurationSum: 59.85
-  StartingTime: 51.85
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - "\u0906\u091C \u0939\u092E \u0938\u0940\u0916\u0947\u0902\u0917\u0947 \u0915\u0940
-    \u0939\u092E\u093E\u0930\u0947 \u0935\u093E\u0924\u093E\u0935\u0930\u0923 \u0915\u0940
-    \u0935\u093F\u0936\u0947\u0937 \u0935\u0938\u094D\u0924\u0941\u0913 \u0915\u094B
-    \u0938\u0902\u0938\u094D\u0915\u0943\u0924 \u092E\u0947\u0902 \u0915\u094D\u092F\u093E
-    \u0915\u0939\u093E \u091C\u093E\u0924\u093E \u0939\u0948"
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  VoiceRecording: {fileID: 0}
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  storyboardImageAreaSize: {x: 330, y: 120}
-  _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &1470340863246260760
+--- !u!114 &31032998600942236
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1076,11 +850,11 @@ MonoBehaviour:
   UID: f53612f5-813f-4afc-9c98-d82b4f01c13c
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 11
+  IndexInList: 16
   NodeRect:
     serializedVersion: 2
-    x: 543.24524
-    y: 212.34567
+    x: 655.7452
+    y: 322.34564
     width: 200
     height: 85
   InputArea:
@@ -1096,7 +870,7 @@ MonoBehaviour:
     width: 0
     height: 0
   NodesIMadeConnectionsTo:
-  - {fileID: 3502173003562947709}
+  - {fileID: -5614737077114905574}
   NodesThatMadeAConnectionToMe: []
   UsesText: 0
   HasInputArea: 0
@@ -1108,7 +882,7 @@ MonoBehaviour:
   TimeInSeconds: 0
   NodeDurationSum: 0
   StartingTime: 0
-  CallingNode: {fileID: 1470340863246260760}
+  CallingNode: {fileID: 31032998600942236}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -1122,10 +896,8 @@ MonoBehaviour:
   sample: 0
   AddedToStoriesCharacterList: 1
   NodesInMyChain:
-  - {fileID: 3502173003562947709}
-  - {fileID: 396864537047468851}
-  - {fileID: -1471278623359283214}
-  - {fileID: 2492961615138926116}
+  - {fileID: -5614737077114905574}
+  - {fileID: -6185167587515279260}
   CharacterBios:
   - CharacterName: Student
     CharacterSex: 0
@@ -1250,7 +1022,7 @@ MonoBehaviour:
   HideInTimeline: 0
   SortingID: 0
   ShowInTimeline: 1
---- !u!114 &2119256584027795362
+--- !u!114 &1071823930612870096
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1260,18 +1032,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 21_Dialogue
+  m_Name: 9_Dialogue
   m_EditorClassIdentifier: 
-  Name: 21_Dialogue
+  Name: 9_Dialogue
   StoryProject: {fileID: 11400000}
-  UID: a7a741b6-c716-47a3-91bd-dd855ed256a3
+  UID: a8f4a483-a8a8-46d0-8822-f49b8e1d08e4
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 12
+  IndexInList: 6
   NodeRect:
     serializedVersion: 2
-    x: 8377.117
-    y: 966.9746
+    x: 3369.1755
+    y: 970.0366
     width: 330
     height: 120
   InputArea:
@@ -1287,20 +1059,20 @@ MonoBehaviour:
     width: 0
     height: 0
   NodesIMadeConnectionsTo:
-  - {fileID: 8948401965811273218}
+  - {fileID: 6309390956145987046}
   NodesThatMadeAConnectionToMe:
-  - {fileID: 3140816425364503353}
+  - {fileID: -2238993157939572883}
   UsesText: 1
   HasInputArea: 1
   HasOutputArea: 1
   ChainingColour: {r: 1, g: 1, b: 1, a: 1}
   UsesTime: 1
   MaxMinutes: 5
-  DelayTimeInSeconds: 1.9964844
-  TimeInSeconds: 7
-  NodeDurationSum: 111.4401
-  StartingTime: 104.4401
-  CallingNode: {fileID: 3435851257728782653}
+  DelayTimeInSeconds: 3.3
+  TimeInSeconds: 6
+  NodeDurationSum: 36.45
+  StartingTime: 30.449999
+  CallingNode: {fileID: 1074936844477728065}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -1310,229 +1082,19 @@ MonoBehaviour:
   pushTime: 1
   OverrideStartTime: 0
   LocalizedText:
-  - "\u0924\u094C \u091A\u0930\u0924\u0903 \u0964 \r\n \" \u0935\u0947 \u0926\u094B
-    \u091A\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902 \"\r\n"
+  - "laLD`r &  ro uke fde~ \r\nfganh  & rqEgkjk uke D;k gS\r\n"
   Expand: 1
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 1502b7be280fd9b42981895282bcf271, type: 3}
   StoryboardImagePath: 
   VoiceRecording: {fileID: 0}
   LocalizedVoiceRecordings:
   - {fileID: 0}
   storyboardImageAreaSize: {x: 330, y: 120}
   _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &2492961615138926116
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 656144476, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 14_Action
-  m_EditorClassIdentifier: 
-  Name: 14_Action
-  StoryProject: {fileID: 11400000}
-  UID: 11368a16-af54-46e3-95c5-f8c5a745dbc5
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 2
-  NodeRect:
-    serializedVersion: 2
-    x: 2551.8171
-    y: 270.20947
-    width: 150
-    height: 50
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo: []
-  NodesThatMadeAConnectionToMe:
-  - {fileID: -1471278623359283214}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 1
-  DelayTimeInSeconds: 19.01939
-  TimeInSeconds: 1
-  NodeDurationSum: 70.16939
-  StartingTime: 69.16939
-  CallingNode: {fileID: 1470340863246260760}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - Look towards the river
-  Expand: 0
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  _textAreaScrollPosition: {x: 0, y: 0}
-  _textAreaHeight: 0
-  storyboardImageAreaSize: {x: 330, y: 120}
---- !u!114 &3140816425364503353
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 656144476, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 20_Action
-  m_EditorClassIdentifier: 
-  Name: 20_Action
-  StoryProject: {fileID: 11400000}
-  UID: c0b04a31-018a-4fff-91a4-7fe936880f40
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 4
-  NodeRect:
-    serializedVersion: 2
-    x: 8097.117
-    y: 911.2604
-    width: 150
-    height: 200
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: 2119256584027795362}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: -2813297763271997447}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 1
-  DelayTimeInSeconds: 3.257422
-  TimeInSeconds: 1
-  NodeDurationSum: 102.44362
-  StartingTime: 101.44362
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - Pointing towards cows
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  _textAreaScrollPosition: {x: 0, y: 0}
-  _textAreaHeight: 0
-  storyboardImageAreaSize: {x: 330, y: 120}
---- !u!114 &3294750315806155944
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 656144476, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 23_Action
-  m_EditorClassIdentifier: 
-  Name: 23_Action
-  StoryProject: {fileID: 11400000}
-  UID: fa344c40-ea72-44e0-9333-6712d3e4c71f
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 5
-  NodeRect:
-    serializedVersion: 2
-    x: 9364.262
-    y: 999.8319
-    width: 150
-    height: 200
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: -8157594382937767374}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 8948401965811273218}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 1
-  DelayTimeInSeconds: 1.2609376
-  TimeInSeconds: 2
-  NodeDurationSum: 120.327995
-  StartingTime: 118.327995
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - Piont towards Forest
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  _textAreaScrollPosition: {x: 0, y: 0}
-  _textAreaHeight: 0
-  storyboardImageAreaSize: {x: 330, y: 120}
---- !u!114 &3435851257728782653
+--- !u!114 &1074936844477728065
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1549,11 +1111,11 @@ MonoBehaviour:
   UID: 083d44d5-1e20-4434-a268-1479b8fe7a27
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 9
+  IndexInList: 0
   NodeRect:
     serializedVersion: 2
-    x: 705.84033
-    y: 886.35974
+    x: 1003.34033
+    y: 938.85974
     width: 200
     height: 85
   InputArea:
@@ -1569,7 +1131,7 @@ MonoBehaviour:
     width: 0
     height: 0
   NodesIMadeConnectionsTo:
-  - {fileID: -1969619951976763308}
+  - {fileID: 8712057297598178525}
   NodesThatMadeAConnectionToMe: []
   UsesText: 0
   HasInputArea: 0
@@ -1581,7 +1143,7 @@ MonoBehaviour:
   TimeInSeconds: 0
   NodeDurationSum: 0
   StartingTime: 0
-  CallingNode: {fileID: 3435851257728782653}
+  CallingNode: {fileID: 1074936844477728065}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -1595,24 +1157,19 @@ MonoBehaviour:
   sample: 0
   AddedToStoriesCharacterList: 1
   NodesInMyChain:
-  - {fileID: -1969619951976763308}
-  - {fileID: 8697944244611738864}
-  - {fileID: 4487912418990903798}
-  - {fileID: 8821642949682763349}
-  - {fileID: -6634357094568511430}
-  - {fileID: 942989962130819224}
-  - {fileID: -4507080512924146397}
-  - {fileID: 89586263017561591}
-  - {fileID: -2381608312259596905}
-  - {fileID: -862697835180320784}
-  - {fileID: 8431104139863514289}
-  - {fileID: -3345987888694437539}
-  - {fileID: -2813297763271997447}
-  - {fileID: 3140816425364503353}
-  - {fileID: 2119256584027795362}
-  - {fileID: 8948401965811273218}
-  - {fileID: 3294750315806155944}
-  - {fileID: -8157594382937767374}
+  - {fileID: 8712057297598178525}
+  - {fileID: 1600850673408095353}
+  - {fileID: -2238993157939572883}
+  - {fileID: 1071823930612870096}
+  - {fileID: 6309390956145987046}
+  - {fileID: -1678062291261860370}
+  - {fileID: -5917464908631166948}
+  - {fileID: 2126326455868585722}
+  - {fileID: -102121948662880919}
+  - {fileID: -5168850102993277720}
+  - {fileID: 4265381841322025077}
+  - {fileID: -6739271140202537659}
+  - {fileID: -359235270903631006}
   CharacterBios:
   - CharacterName: Guru
     CharacterSex: 0
@@ -1737,79 +1294,7 @@ MonoBehaviour:
   HideInTimeline: 0
   SortingID: 1
   ShowInTimeline: 1
---- !u!114 &3502173003562947709
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 6_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 6_Dialogue
-  StoryProject: {fileID: 11400000}
-  UID: 56146373-2766-4a90-a431-09eb7c9620e6
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 7
-  NodeRect:
-    serializedVersion: 2
-    x: 1010.95105
-    y: 206.10686
-    width: 330
-    height: 120
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: 396864537047468851}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 1470340863246260760}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 5
-  DelayTimeInSeconds: 13.75
-  TimeInSeconds: 1
-  NodeDurationSum: 14.75
-  StartingTime: 13.75
-  CallingNode: {fileID: 1470340863246260760}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - "\u0938\u0941\u092A\u094D\u0930\u092D\u093E\u0924 "
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  VoiceRecording: {fileID: 0}
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  storyboardImageAreaSize: {x: 330, y: 120}
-  _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &4487912418990903798
+--- !u!114 &1600850673408095353
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1826,11 +1311,11 @@ MonoBehaviour:
   UID: 7cbb45ff-2ea6-4cae-9acf-fa064ae36523
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 16
+  IndexInList: 4
   NodeRect:
     serializedVersion: 2
     x: 2173.8442
-    y: 967.1174
+    y: 970.05865
     width: 330
     height: 120
   InputArea:
@@ -1846,9 +1331,9 @@ MonoBehaviour:
     width: 0
     height: 0
   NodesIMadeConnectionsTo:
-  - {fileID: 8821642949682763349}
+  - {fileID: -2238993157939572883}
   NodesThatMadeAConnectionToMe:
-  - {fileID: 8697944244611738864}
+  - {fileID: 8712057297598178525}
   UsesText: 1
   HasInputArea: 1
   HasOutputArea: 1
@@ -1857,9 +1342,9 @@ MonoBehaviour:
   MaxMinutes: 5
   DelayTimeInSeconds: 1.75
   TimeInSeconds: 1
-  NodeDurationSum: 16.1
-  StartingTime: 15.1
-  CallingNode: {fileID: 3435851257728782653}
+  NodeDurationSum: 5.5
+  StartingTime: 4.5
+  CallingNode: {fileID: 1074936844477728065}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -1869,20 +1354,19 @@ MonoBehaviour:
   pushTime: 1
   OverrideStartTime: 0
   LocalizedText:
-  - "\u0915\u0943\u092A\u092F\u093E \u0905\u092A\u0928\u093E \u0938\u094D\u0925\u093E\u0928
-    \u0917\u094D\u0930\u0947\u0939\u0923 \u0915\u0930\u0947\u0902\u0964"
+  - D`i;k viuk LFkku xzsg.k djsa A
   Expand: 1
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 14e418d863ad78c4b804a2e3b890080c, type: 3}
   StoryboardImagePath: 
   VoiceRecording: {fileID: 0}
   LocalizedVoiceRecordings:
   - {fileID: 0}
   storyboardImageAreaSize: {x: 330, y: 120}
   _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &8431104139863514289
+--- !u!114 &2126326455868585722
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1891,21 +1375,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 656144476, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 17_Action
+  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
+  m_Name: 16_Dialogue
   m_EditorClassIdentifier: 
-  Name: 17_Action
+  Name: 16_Dialogue
   StoryProject: {fileID: 11400000}
-  UID: ab77f61b-f0fe-4703-9e15-f106ab5456ac
+  UID: 7caa39e7-1b54-4a2c-a782-dc09a0681d48
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 3
+  IndexInList: 13
   NodeRect:
     serializedVersion: 2
-    x: 6576.519
-    y: 924.2596
-    width: 150
-    height: 200
+    x: 5660.2827
+    y: 994.25085
+    width: 330
+    height: 120
   InputArea:
     serializedVersion: 2
     x: 0
@@ -1919,20 +1403,20 @@ MonoBehaviour:
     width: 0
     height: 0
   NodesIMadeConnectionsTo:
-  - {fileID: -3345987888694437539}
+  - {fileID: -102121948662880919}
   NodesThatMadeAConnectionToMe:
-  - {fileID: -862697835180320784}
+  - {fileID: -5917464908631166948}
   UsesText: 1
   HasInputArea: 1
   HasOutputArea: 1
   ChainingColour: {r: 1, g: 1, b: 1, a: 1}
   UsesTime: 1
-  MaxMinutes: 1
-  DelayTimeInSeconds: 0.9557648
-  TimeInSeconds: 2
-  NodeDurationSum: 83.32121
-  StartingTime: 81.32121
-  CallingNode: {fileID: 3435851257728782653}
+  MaxMinutes: 5
+  DelayTimeInSeconds: 1.7253878
+  TimeInSeconds: 3
+  NodeDurationSum: 65.91969
+  StartingTime: 62.91969
+  CallingNode: {fileID: 1074936844477728065}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -1942,17 +1426,170 @@ MonoBehaviour:
   pushTime: 1
   OverrideStartTime: 0
   LocalizedText:
-  - Points towards a tree
+  - 'laLD`r &  ,"k% o`{k% A
+
+    fganh  &  ;g isM+ gS A
+
+    
+
+'
   Expand: 1
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 98ba371ae12184e4787fcbfc47982f79, type: 3}
   StoryboardImagePath: 
-  _textAreaScrollPosition: {x: 0, y: 0}
-  _textAreaHeight: 0
+  VoiceRecording: {fileID: 0}
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
   storyboardImageAreaSize: {x: 330, y: 120}
---- !u!114 &8697944244611738864
+  _textAreaScrollView: {x: 0, y: 0}
+--- !u!114 &4265381841322025077
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
+  m_Name: 21_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 21_Dialogue
+  StoryProject: {fileID: 11400000}
+  UID: a7a741b6-c716-47a3-91bd-dd855ed256a3
+  Drag: {fileID: 0}
+  UseCustomDragArea: 0
+  IndexInList: 11
+  NodeRect:
+    serializedVersion: 2
+    x: 7339.6177
+    y: 1001.9746
+    width: 330
+    height: 120
+  InputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OutputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  NodesIMadeConnectionsTo:
+  - {fileID: -6739271140202537659}
+  NodesThatMadeAConnectionToMe:
+  - {fileID: -5168850102993277720}
+  UsesText: 1
+  HasInputArea: 1
+  HasOutputArea: 1
+  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
+  UsesTime: 1
+  MaxMinutes: 5
+  DelayTimeInSeconds: 1.9964844
+  TimeInSeconds: 7
+  NodeDurationSum: 89.78116
+  StartingTime: 82.78116
+  CallingNode: {fileID: 1074936844477728065}
+  Environment: {fileID: 0}
+  Text: 
+  Tag: 
+  Pass: 0
+  MySceneId: 0
+  IOofset: {x: 5, y: 0}
+  pushTime: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - "laLD`r &  rkS pjr% A \r\nfganh  &  os nks pj jgs gSa A\r\n\r\n"
+  Expand: 1
+  ShowImageArea: 0
+  SoundEffect: {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: a48b6fd87f3ad6b49a052e240e62c004, type: 3}
+  StoryboardImagePath: 
+  VoiceRecording: {fileID: 0}
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  storyboardImageAreaSize: {x: 330, y: 120}
+  _textAreaScrollView: {x: 0, y: 0}
+--- !u!114 &6309390956145987046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
+  m_Name: 11_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 11_Dialogue
+  StoryProject: {fileID: 11400000}
+  UID: 6fa01490-5e9c-4c8e-9972-2f8799498cce
+  Drag: {fileID: 0}
+  UseCustomDragArea: 0
+  IndexInList: 7
+  NodeRect:
+    serializedVersion: 2
+    x: 3881.229
+    y: 978.96204
+    width: 330
+    height: 120
+  InputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OutputArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  NodesIMadeConnectionsTo:
+  - {fileID: -1678062291261860370}
+  NodesThatMadeAConnectionToMe:
+  - {fileID: 1071823930612870096}
+  UsesText: 1
+  HasInputArea: 1
+  HasOutputArea: 1
+  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
+  UsesTime: 1
+  MaxMinutes: 5
+  DelayTimeInSeconds: 4.8
+  TimeInSeconds: 8
+  NodeDurationSum: 49.25
+  StartingTime: 41.25
+  CallingNode: {fileID: 1074936844477728065}
+  Environment: {fileID: 0}
+  Text: 
+  Tag: 
+  Pass: 0
+  MySceneId: 0
+  IOofset: {x: 5, y: 0}
+  pushTime: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - vkt ge lh[ksaxs dh gekjs okrkoj.k dh fo'ks"k oLrqvks dks laLD`r  esa D;k dgk
+    tkrk gS
+  Expand: 1
+  ShowImageArea: 0
+  SoundEffect: {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 2b022fa441d2dc04483fce2022f40853, type: 3}
+  StoryboardImagePath: 
+  VoiceRecording: {fileID: 0}
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  storyboardImageAreaSize: {x: 330, y: 120}
+  _textAreaScrollView: {x: 0, y: 0}
+--- !u!114 &8712057297598178525
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1969,11 +1606,11 @@ MonoBehaviour:
   UID: f1da4c1d-c09d-4b9b-8908-2102188d845d
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 24
+  IndexInList: 3
   NodeRect:
     serializedVersion: 2
-    x: 1620.3085
-    y: 968.954
+    x: 1539.5393
+    y: 959.9042
     width: 330
     height: 120
   InputArea:
@@ -1989,9 +1626,9 @@ MonoBehaviour:
     width: 0
     height: 0
   NodesIMadeConnectionsTo:
-  - {fileID: 4487912418990903798}
+  - {fileID: 1600850673408095353}
   NodesThatMadeAConnectionToMe:
-  - {fileID: -1969619951976763308}
+  - {fileID: 1074936844477728065}
   UsesText: 1
   HasInputArea: 1
   HasOutputArea: 1
@@ -2000,9 +1637,9 @@ MonoBehaviour:
   MaxMinutes: 5
   DelayTimeInSeconds: 1.75
   TimeInSeconds: 1
-  NodeDurationSum: 13.35
-  StartingTime: 12.35
-  CallingNode: {fileID: 3435851257728782653}
+  NodeDurationSum: 2.75
+  StartingTime: 1.75
+  CallingNode: {fileID: 1074936844477728065}
   Environment: {fileID: 0}
   Text: 
   Tag: 
@@ -2012,168 +1649,12 @@ MonoBehaviour:
   pushTime: 1
   OverrideStartTime: 0
   LocalizedText:
-  - "\u0938\u0941\u092A\u094D\u0930\u092D\u093E\u0924 "
+  - lqIjHkkr
   Expand: 1
   ShowImageArea: 0
   SoundEffect: {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  VoiceRecording: {fileID: 0}
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  storyboardImageAreaSize: {x: 330, y: 120}
-  _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &8821642949682763349
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 8_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 8_Dialogue
-  StoryProject: {fileID: 11400000}
-  UID: d7321f72-03ec-48f1-af42-d7829865aab4
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 23
-  NodeRect:
-    serializedVersion: 2
-    x: 2844.8655
-    y: 962.01306
-    width: 330
-    height: 120
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: -6634357094568511430}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 4487912418990903798}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 5
-  DelayTimeInSeconds: 2.65
-  TimeInSeconds: 19
-  NodeDurationSum: 37.75
-  StartingTime: 18.75
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - "\u201C\u0926\u0941\u0928\u093F\u092F\u093E \u092E\u0947\u0902 \u0915\u0908 \u0924\u0930\u0939
-    \u0915\u0940 \u092D\u093E\u0937\u093E\u090F\u0902 \u092C\u094B\u0932\u0940 \u091C\u093E\u0924\u0940
-    \u0939\u0948\u0902 \u0914\u0930 \u0939\u092E\u093E\u0930\u0947 \u092D\u093E\u0930\u0924
-    \u092E\u0947\u0902 \u092D\u0940 \u0915\u0908 \u0924\u0930\u0939 \u0915\u0940
-    \u092D\u093E\u0937\u093E\u090F\u0902 \u092C\u094B\u0932\u0940 \u091C\u093E\u0924\u0940
-    \u0939\u0948\u0902. \u0906\u091C \u0939\u092E \u0906\u092A\u0915\u094B \u0926\u0941\u0928\u093F\u092F\u093E
-    \u0915\u0940 \u0938\u092C\u0938\u0947 \u092A\u0941\u0930\u093E\u0928\u0940 \u092D\u093E\u0937\u093E
-    \u0915\u0947 \u092C\u093E\u0930\u0947 \u092E\u0947\u0902 \u092A\u095D\u093E\u0928\u0947
-    \u091C\u093E \u0930\u0939\u0947 \u0939\u0948\u0902| \u0915\u0939\u0924\u0947
-    \u0939\u0948\u0902 \u0915\u0940 \u0938\u0902\u0938\u094D\u0915\u0943\u0924 \u092D\u093E\u0937\u093E
-    \u0915\u0947 \u0926\u094D\u0935\u093E\u0930\u093E \u0939\u0940 \u0915\u0908 \u092D\u093E\u0937\u093E\u090F\u0902
-    \u092C\u0928\u093E\u0908 \u0917\u0908 \u0939\u0948\u0902|\u201D"
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImagePath: 
-  VoiceRecording: {fileID: 0}
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  storyboardImageAreaSize: {x: 330, y: 120}
-  _textAreaScrollView: {x: 0, y: 0}
---- !u!114 &8948401965811273218
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1432923298, guid: 55ffa4d6529f10b4aba0ad6d5d3d05ec, type: 3}
-  m_Name: 22_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 22_Dialogue
-  StoryProject: {fileID: 11400000}
-  UID: 234dacf5-3797-4d34-a7e6-3fceb7752de3
-  Drag: {fileID: 0}
-  UseCustomDragArea: 0
-  IndexInList: 22
-  NodeRect:
-    serializedVersion: 2
-    x: 8818.547
-    y: 995.15906
-    width: 330
-    height: 120
-  InputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  OutputArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  NodesIMadeConnectionsTo:
-  - {fileID: 3294750315806155944}
-  NodesThatMadeAConnectionToMe:
-  - {fileID: 2119256584027795362}
-  UsesText: 1
-  HasInputArea: 1
-  HasOutputArea: 1
-  ChainingColour: {r: 1, g: 1, b: 1, a: 1}
-  UsesTime: 1
-  MaxMinutes: 5
-  DelayTimeInSeconds: 2.6269531
-  TimeInSeconds: 3
-  NodeDurationSum: 117.067055
-  StartingTime: 114.067055
-  CallingNode: {fileID: 3435851257728782653}
-  Environment: {fileID: 0}
-  Text: 
-  Tag: 
-  Pass: 0
-  MySceneId: 0
-  IOofset: {x: 5, y: 0}
-  pushTime: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - "\u090F\u0937\u0903 \u0935\u0928\u0902 | \r\n\u201C\u092F\u0939 \u0935\u0928
-    \u0939\u0948\u201D | \r\n"
-  Expand: 1
-  ShowImageArea: 0
-  SoundEffect: {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 0d289b19f3fd204449c94b55fdf8790e, type: 3}
   StoryboardImagePath: 
   VoiceRecording: {fileID: 0}
   LocalizedVoiceRecordings:
