@@ -17,22 +17,22 @@ MonoBehaviour:
   UID: a19e06e1-fab8-4943-8a13-4dec16efa128
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 17
+  IndexInList: 14
   NodeRect:
     serializedVersion: 2
-    x: 8845.452
+    x: 8844.137
     y: 1025.6637
     width: 60
     height: 30
   InputArea:
     serializedVersion: 2
-    x: 8840.452
+    x: 8839.137
     y: 1035.6637
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 8900.452
+    x: 8899.137
     y: 1035.6637
     width: 10
     height: 10
@@ -79,7 +79,7 @@ MonoBehaviour:
   UID: 59beeb44-0a37-4a8c-8ca3-3464bb55b8e6
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 6
+  IndexInList: 3
   NodeRect:
     serializedVersion: 2
     x: 5070.6064
@@ -151,7 +151,7 @@ MonoBehaviour:
   UID: a7a741b6-c716-47a3-91bd-dd855ed256a3
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 8
+  IndexInList: 5
   NodeRect:
     serializedVersion: 2
     x: 7339.6177
@@ -223,7 +223,7 @@ MonoBehaviour:
   UID: 67bbd074-5a35-4cd2-b255-cd15d560fe1d
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 7
+  IndexInList: 4
   NodeRect:
     serializedVersion: 2
     x: 6842.8433
@@ -296,7 +296,7 @@ MonoBehaviour:
   UID: 7caa39e7-1b54-4a2c-a782-dc09a0681d48
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 10
+  IndexInList: 7
   NodeRect:
     serializedVersion: 2
     x: 5660.2827
@@ -374,7 +374,7 @@ MonoBehaviour:
   UID: 083d44d5-1e20-4434-a268-1479b8fe7a27
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 14
+  IndexInList: 11
   NodeRect:
     serializedVersion: 2
     x: 1003.34033
@@ -574,23 +574,23 @@ MonoBehaviour:
   UID: d7321f72-03ec-48f1-af42-d7829865aab4
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 2
+  IndexInList: 17
   NodeRect:
     serializedVersion: 2
     x: 2822.9905
-    y: 960.9714
+    y: 962.63806
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
     x: 2817.9905
-    y: 1015.9714
+    y: 1017.63806
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
     x: 3147.9905
-    y: 1015.9714
+    y: 1017.63806
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -649,7 +649,7 @@ MonoBehaviour:
   UID: 56146373-2766-4a90-a431-09eb7c9620e6
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 13
+  IndexInList: 10
   NodeRect:
     serializedVersion: 2
     x: 1098.451
@@ -721,23 +721,23 @@ MonoBehaviour:
   UID: f1da4c1d-c09d-4b9b-8908-2102188d845d
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 0
+  IndexInList: 15
   NodeRect:
     serializedVersion: 2
-    x: 1539.5393
-    y: 959.9042
+    x: 1541.2634
+    y: 959.84674
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 1534.5393
-    y: 1014.9042
+    x: 1536.2634
+    y: 1014.84674
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 1864.5393
-    y: 1014.9042
+    x: 1866.2634
+    y: 1014.84674
     width: 10
     height: 10
   NodesIMadeConnectionsTo:
@@ -793,7 +793,7 @@ MonoBehaviour:
   UID: 234dacf5-3797-4d34-a7e6-3fceb7752de3
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 9
+  IndexInList: 6
   NodeRect:
     serializedVersion: 2
     x: 7897.4946
@@ -871,12 +871,9 @@ MonoBehaviour:
   Scenes:
   - SceneName: dialogue
     UID: 2b33a32c-3b76-4d6d-a415-ace6cbc2aacd
-    Pan: {x: 8081.3057, y: 762.5071}
-    Zoom: 0.7600002
+    Pan: {x: 1816.3452, y: 643.3921}
+    Zoom: 0.6000004
     NodeElements:
-    - {fileID: -1202247609493134214}
-    - {fileID: 8265429790117705045}
-    - {fileID: -1981018924048155769}
     - {fileID: 3546373163650205591}
     - {fileID: 386499477486546714}
     - {fileID: 4654235663782169507}
@@ -892,6 +889,9 @@ MonoBehaviour:
     - {fileID: 2545801523456139910}
     - {fileID: 8593146257509332321}
     - {fileID: -6525534555792360616}
+    - {fileID: -1202247609493134214}
+    - {fileID: 8265429790117705045}
+    - {fileID: -1981018924048155769}
     Characters:
     - {fileID: 2545801523456139910}
     - {fileID: -2790390479274582398}
@@ -979,7 +979,7 @@ MonoBehaviour:
   UID: 6fa01490-5e9c-4c8e-9972-2f8799498cce
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 4
+  IndexInList: 1
   NodeRect:
     serializedVersion: 2
     x: 3881.229
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   UID: f53612f5-813f-4afc-9c98-d82b4f01c13c
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 15
+  IndexInList: 12
   NodeRect:
     serializedVersion: 2
     x: 655.7452
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   UID: 69d79390-24ac-47fa-b071-995c3c3dbd28
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 12
+  IndexInList: 9
   NodeRect:
     serializedVersion: 2
     x: 1888.5942
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   UID: a8f4a483-a8a8-46d0-8822-f49b8e1d08e4
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 3
+  IndexInList: 0
   NodeRect:
     serializedVersion: 2
     x: 3369.1755
@@ -1384,7 +1384,7 @@ MonoBehaviour:
   UID: 8f5215ac-0ba9-40b5-890e-c4ae2da04606
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 5
+  IndexInList: 2
   NodeRect:
     serializedVersion: 2
     x: 4517.5894
@@ -1456,7 +1456,7 @@ MonoBehaviour:
   UID: 7ae1815a-cede-47c3-bf70-35899fe93a65
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 11
+  IndexInList: 8
   NodeRect:
     serializedVersion: 2
     x: 6183.0474
@@ -1534,22 +1534,22 @@ MonoBehaviour:
   UID: 7cbb45ff-2ea6-4cae-9acf-fa064ae36523
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 1
+  IndexInList: 16
   NodeRect:
     serializedVersion: 2
-    x: 2173.8442
+    x: 2175.511
     y: 970.05865
     width: 330
     height: 120
   InputArea:
     serializedVersion: 2
-    x: 2168.8442
+    x: 2170.511
     y: 1025.0586
     width: 10
     height: 10
   OutputArea:
     serializedVersion: 2
-    x: 2498.8442
+    x: 2500.511
     y: 1025.0586
     width: 10
     height: 10
@@ -1606,7 +1606,7 @@ MonoBehaviour:
   UID: 12d46403-4242-44b4-b380-5d48f66917cf
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 16
+  IndexInList: 13
   NodeRect:
     serializedVersion: 2
     x: 8317.891
