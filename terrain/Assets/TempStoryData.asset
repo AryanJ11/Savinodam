@@ -343,7 +343,7 @@ MonoBehaviour:
 
     fganh  &  ;g isM+ gS A
 
-    
+
 
 '
   Expand: 1
@@ -871,8 +871,8 @@ MonoBehaviour:
   Scenes:
   - SceneName: dialogue
     UID: 2b33a32c-3b76-4d6d-a415-ace6cbc2aacd
-    Pan: {x: 7789.922, y: 748.4121}
-    Zoom: 0.64
+    Pan: {x: -40.30734, y: -425.94373}
+    Zoom: 0.38000005
     NodeElements:
     - {fileID: -2790390479274582398}
     - {fileID: -6525534555792360616}
@@ -890,8 +890,8 @@ MonoBehaviour:
     - {fileID: -3134290385878422042}
     - {fileID: 5141575809148330333}
     - {fileID: 2609726727906828626}
-    - {fileID: 2545801523456139910}
     - {fileID: 8593146257509332321}
+    - {fileID: 2545801523456139910}
     Characters:
     - {fileID: 2545801523456139910}
     - {fileID: -2790390479274582398}
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   UID: f53612f5-813f-4afc-9c98-d82b4f01c13c
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 16
+  IndexInList: 17
   NodeRect:
     serializedVersion: 2
     x: 655.7452
@@ -1606,7 +1606,7 @@ MonoBehaviour:
   UID: 12d46403-4242-44b4-b380-5d48f66917cf
   Drag: {fileID: 0}
   UseCustomDragArea: 0
-  IndexInList: 17
+  IndexInList: 16
   NodeRect:
     serializedVersion: 2
     x: 8317.891
