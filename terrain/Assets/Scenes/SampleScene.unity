@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4763447, g: 0.5290356, b: 0.61555827, a: 1}
+  m_IndirectSpecularColor: {r: 0.47634584, g: 0.5290358, b: 0.6155585, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -27420,7 +27420,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810893064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.8007}
+  m_LocalPosition: {x: 0, y: 0, z: 91}
   m_LocalScale: {x: 1.979607, y: 2.8143837, z: 4.3052}
   m_Children: []
   m_Father: {fileID: 1648786610}
@@ -27428,7 +27428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -3.4474945, y: -29.03}
+  m_AnchoredPosition: {x: 164, y: -162}
   m_SizeDelta: {x: 48.7, y: 32}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &810893066
@@ -33458,7 +33458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &983903421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60408,7 +60408,7 @@ MonoBehaviour:
   ShowKeywordFilterFouldout: 0
   ShowNodeSpecificSettings: 1
   SetupRouteButtons: 0
-  LastSelectedUID: 12d46403-4242-44b4-b380-5d48f66917cf
+  LastSelectedUID: a19e06e1-fab8-4943-8a13-4dec16efa128
   ShowUIAndTextSettings: 0
   ShowTextDisplayModeSettings: 0
   ShowGeneralConditionsSettings: 1
@@ -62241,7 +62241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3fd7e9b9682f4458e1869ce15de6a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AutoStart: 0
+  AutoStart: 1
   cachedTargetObject: {fileID: 0}
   ComponentIndex: 0
   Components: []
@@ -62253,7 +62253,31 @@ MonoBehaviour:
   serializedMethods: []
   targetEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 983903420}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1688564198}
+        m_TargetAssemblyTypeName: doSpeak, Assembly-CSharp
+        m_MethodName: StopSpeak
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TargetGameObject: {fileID: 0}
   timeUseMethod: 0
   UseTime: 0
@@ -76811,13 +76835,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2573726282547884948}
-  m_LocalRotation: {x: 0.000000029802322, y: 0.005797901, z: -0.0000000023283064, w: 0.9999832}
-  m_LocalPosition: {x: 0.0011, y: 0, z: -0}
+  m_LocalRotation: {x: -0.3766319, y: -0.0012741961, z: 0.0067426804, w: 0.9263376}
+  m_LocalPosition: {x: 0.02938317, y: -0.022599751, z: -0.10222937}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 839288008452407353}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0.664, z: 0}
+  m_LocalEulerAnglesHint: {x: -44.247, y: -0.595, z: 1.076}
 --- !u!1 &2562344267524391547
 GameObject:
   m_ObjectHideFlags: 0
