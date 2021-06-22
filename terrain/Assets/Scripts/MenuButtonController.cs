@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuButtonController : MonoBehaviour {
 
@@ -18,7 +19,7 @@ public class MenuButtonController : MonoBehaviour {
 	void Update () {
 		if(Input.GetAxis ("Vertical") != 0){
 			if(!keyDown){
-				if (Input.GetAxis ("Vertical") < 0) {
+				if (Input.GetAxis ("Vertical") < 0){
 					if(index < maxIndex){
 						index++;
 					}else{
@@ -34,8 +35,13 @@ public class MenuButtonController : MonoBehaviour {
 				keyDown = true;
 			}
 		}else{
-			if(index==0)
-				Debug.Log("Play button pressed");
+			if(Input.GetKeyDown(KeyCode.Tab))
+			{
+				if(index==0)
+				{
+					SceneManager.LoadScene("Scenes/Intro");
+				}
+			}
 			keyDown = false;
 		}
 	}
