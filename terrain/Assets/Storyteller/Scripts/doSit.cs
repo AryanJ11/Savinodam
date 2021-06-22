@@ -10,4 +10,8 @@ public class doSit : MonoBehaviour
     {
         animator.SetBool("sit", true);
     }
+    public void StandNow()
+    {
+        animator.SetBool("sit", false);
+    }
 }
