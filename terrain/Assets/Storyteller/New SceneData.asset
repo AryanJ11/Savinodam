@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9019607918094850012
+--- !u!114 &-8606403178676902441
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14,33 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 19_Dialogue
   Text: 
-  UID: 67bbd074-5a35-4cd2-b255-cd15d560fe1d
-  CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  UID: 2b4816af-2048-44a7-900c-cc037fdca2d7
+  CharacterName: Student
+  CallingNodeData: {fileID: 5434295476880883808}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: 6395016157444604679}
+  - {fileID: 9131175948451318448}
   DataIconnectedTo:
-  - {fileID: 7864955023920365050}
-  Duration: 5
-  Delay: 2.0490234
-  RealtimeDelay: 0
-  StartTime: 75.784676
-  DurationSum: 80.784676
+  - {fileID: -6083490960553717429}
+  Duration: 1
+  Delay: 1.4185547
+  RealtimeDelay: 0.5447264
+  StartTime: 5.76582
+  DurationSum: 6.76582
   useTime: 1
-  IsPlayer: 0
+  IsPlayer: 1
   OverrideStartTime: 0
   LocalizedText:
-  - "laLD`r &  rkS dkS \\\r\nfganh  &  os nks D;k gSa \\ \r\nlaLD`r &  rkS cfyonkS
-    Lr% A\r\nfganh  &  og nks cSy gSa A\n"
+  - "gs  xq# ] eSa Hkxoku~ Jh  fo\".kq  dk  Hk\xE4  gw\xA1 A  muds  n'kZu  djus 
+    ds  fy,  eq>s  iqjs  fo'o  dk  Kku  \xE7kIr  djuk  gS A ml  Kku  dh  \xE7kfIr 
+    ds  fy,  eq>s  laLD`r  Hkk\"kk  lh[kuh  gS  A D`I;k eq>s   laLD`r  Hkk\"kk  fl[kk,a
+    A"
   LocalizedVoiceRecordings:
   - {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 8300000, guid: c57d6cd2ec2fa4f45806b37dc355e15d, type: 3}
+  - {fileID: 0}
   StoryboardImage: {fileID: 0}
   Tag: 
---- !u!114 &-8886190159081742153
+--- !u!114 &-6083490960553717429
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50,36 +52,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 6_Dialogue
+  m_Name: 20_Dialogue
   m_EditorClassIdentifier: 
-  Name: 6_Dialogue
+  Name: 20_Dialogue
   Text: 
-  UID: 56146373-2766-4a90-a431-09eb7c9620e6
+  UID: 4bc80c26-2d0b-4a7b-8157-f08c4a6ed222
   CharacterName: Student
-  CallingNodeData: {fileID: 4077652832893200226}
+  CallingNodeData: {fileID: 5434295476880883808}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: 4077652832893200226}
-  DataIconnectedTo:
-  - {fileID: -656791174282939729}
-  Duration: 1
-  Delay: 3.3472655
-  RealtimeDelay: 0
-  StartTime: 3.3472655
-  DurationSum: 4.3472652
+  - {fileID: -8606403178676902441}
+  DataIconnectedTo: []
+  Duration: 2.471094
+  Delay: 33.572464
+  RealtimeDelay: 1.0130882
+  StartTime: 40.338284
+  DurationSum: 42.80938
   useTime: 1
   IsPlayer: 1
   OverrideStartTime: 0
   LocalizedText:
-  - lqIjHkkr
+  - /#ok
   LocalizedVoiceRecordings:
   - {fileID: 0}
   LocalizedSoundEffects:
   - {fileID: 0}
   StoryboardImage: {fileID: 0}
   Tag: 
---- !u!114 &-6342386379516380652
+--- !u!114 &-5189743997480138664
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,18 +96,18 @@ MonoBehaviour:
   Text: 
   UID: 6fa01490-5e9c-4c8e-9972-2f8799498cce
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: 3685393800229508512}
+  - {fileID: 2604598694774899608}
   DataIconnectedTo:
-  - {fileID: 4892245605797719756}
+  - {fileID: 7786056025051237672}
   Duration: 8
   Delay: 4.8
-  RealtimeDelay: 0
-  StartTime: 41.25
-  DurationSum: 49.25
+  RealtimeDelay: 1.3158171
+  StartTime: 44.125195
+  DurationSum: 52.125195
   useTime: 1
   IsPlayer: 0
   OverrideStartTime: 0
@@ -119,7 +120,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2b022fa441d2dc04483fce2022f40853, type: 3}
   StoryboardImage: {fileID: 0}
   Tag: 
---- !u!114 &-5737673429122347756
+--- !u!114 &-4297576774633754207
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,195 +129,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 8_Dialogue
+  m_Script: {fileID: 11500000, guid: c74f5891de31f5248a76eef5fbfae5e3, type: 3}
+  m_Name: 18_End
   m_EditorClassIdentifier: 
-  Name: 8_Dialogue
+  Name: 18_End
   Text: 
-  UID: d7321f72-03ec-48f1-af42-d7829865aab4
+  UID: 26020140-1a6f-480d-8ead-21f89447b2fc
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: -4948982398651550755}
-  DataIconnectedTo:
-  - {fileID: 3685393800229508512}
-  Duration: 19
-  Delay: 2.65
-  RealtimeDelay: 0
-  StartTime: 8.15
-  DurationSum: 27.15
-  useTime: 1
-  IsPlayer: 0
-  OverrideStartTime: 0
-  LocalizedText:
-  - nqfu;k esa dbZ rjg dh Hkk"kk,a cksyh tkrh gSa vkSj gekjs Hkkjr esa Hkh dbZ rjg
-    dh Hkk"kk,a cksyh tkrh gSa- vkt ge vkidks nqfu;k dh lcls iqjkuh Hkk"kk ds ckjs
-    esa i<+kus tk jgs gSa- dgrs gSa dh laLD`r  Hkk"kk ds }kjk gh dbZ Hkk"kk,a cukbZ
-    xbZ gSa
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 8300000, guid: 8f6ee6effa661614e92f29cbd07a304a, type: 3}
-  StoryboardImage: {fileID: 0}
-  Tag: 
---- !u!114 &-4948982398651550755
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 6_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 6_Dialogue
-  Text: 
-  UID: 7cbb45ff-2ea6-4cae-9acf-fa064ae36523
-  CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
-  EnvironmentName: 
-  Pass: 0
-  DataConnectedToMe:
-  - {fileID: 878750757544843923}
-  DataIconnectedTo:
-  - {fileID: -5737673429122347756}
-  Duration: 1
-  Delay: 1.75
-  RealtimeDelay: 0
-  StartTime: 4.5
-  DurationSum: 5.5
-  useTime: 1
-  IsPlayer: 0
-  OverrideStartTime: 0
-  LocalizedText:
-  - D`i;k viuk LFkku xzsg.k djsa A
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 8300000, guid: 14e418d863ad78c4b804a2e3b890080c, type: 3}
-  StoryboardImage: {fileID: 0}
-  Tag: 
---- !u!114 &-3486211100197241559
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 15_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 15_Dialogue
-  Text: 
-  UID: 59beeb44-0a37-4a8c-8ca3-3464bb55b8e6
-  CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
-  EnvironmentName: 
-  Pass: 0
-  DataConnectedToMe:
-  - {fileID: 4892245605797719756}
-  DataIconnectedTo:
-  - {fileID: -532570131918468069}
-  Duration: 5
-  Delay: 2.166766
-  RealtimeDelay: 0
-  StartTime: 56.1943
-  DurationSum: 61.1943
-  useTime: 1
-  IsPlayer: 0
-  OverrideStartTime: 0
-  LocalizedText:
-  - "laLD`r &  unh vLeH;e~ tye~ nnkfr A \r\nfganh  &  unh ges ty nsrh gS A\r\n\r\n"
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 8300000, guid: 6b3804ed6969d7348a5298656abcce4b, type: 3}
-  StoryboardImage: {fileID: 0}
-  Tag: 
---- !u!114 &-3109779003875488012
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 22_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 22_Dialogue
-  Text: 
-  UID: 234dacf5-3797-4d34-a7e6-3fceb7752de3
-  CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
-  EnvironmentName: 
-  Pass: 0
-  DataConnectedToMe:
-  - {fileID: 7864955023920365050}
-  DataIconnectedTo:
-  - {fileID: 353817087483517305}
-  Duration: 3
-  Delay: 2.6269531
-  RealtimeDelay: 0
-  StartTime: 92.40811
-  DurationSum: 95.40811
-  useTime: 1
-  IsPlayer: 0
-  OverrideStartTime: 0
-  LocalizedText:
-  - "laLD`r &  ,\"k% oua A\r\nfganh  &  ;g ou gS A \r\n"
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 8300000, guid: ff6004fa74d9c0d43bb4e7d59eca4e35, type: 3}
-  StoryboardImage: {fileID: 0}
-  Tag: 
---- !u!114 &-656791174282939729
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 10_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 10_Dialogue
-  Text: 
-  UID: 69d79390-24ac-47fa-b071-995c3c3dbd28
-  CharacterName: Student
-  CallingNodeData: {fileID: 4077652832893200226}
-  EnvironmentName: 
-  Pass: 0
-  DataConnectedToMe:
-  - {fileID: -8886190159081742153}
+  - {fileID: 1925891448100020707}
   DataIconnectedTo: []
-  Duration: 1
-  Delay: 33.173634
+  Duration: 0
+  Delay: 0
   RealtimeDelay: 0
-  StartTime: 37.520897
-  DurationSum: 38.520897
-  useTime: 1
-  IsPlayer: 1
+  StartTime: 104.48996
+  DurationSum: 0
+  useTime: 0
+  IsPlayer: 0
   OverrideStartTime: 0
   LocalizedText:
-  - viuk uke cksfy;s
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 0}
-  StoryboardImage: {fileID: 0}
-  Tag: 
---- !u!114 &-532570131918468069
+  - 
+--- !u!114 &-4293617989537058858
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -332,18 +168,18 @@ MonoBehaviour:
   Text: 
   UID: 7caa39e7-1b54-4a2c-a782-dc09a0681d48
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: -3486211100197241559}
+  - {fileID: 8613804281505174612}
   DataIconnectedTo:
-  - {fileID: 6395016157444604679}
+  - {fileID: 1021271226050995593}
   Duration: 3
   Delay: 1.7253878
-  RealtimeDelay: 0
-  StartTime: 62.91969
-  DurationSum: 65.91969
+  RealtimeDelay: 1.7253876
+  StartTime: 65.79488
+  DurationSum: 68.79488
   useTime: 1
   IsPlayer: 0
   OverrideStartTime: 0
@@ -361,53 +197,47 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 98ba371ae12184e4787fcbfc47982f79, type: 3}
   StoryboardImage: {fileID: 0}
   Tag: 
---- !u!114 &11400000
+--- !u!114 &-4029920234079458991
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 898e24b5475626c4e801ae0a3c8a1e90, type: 3}
-  m_Name: New SceneData
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 19_Dialogue
   m_EditorClassIdentifier: 
-  UID: 2b33a32c-3b76-4d6d-a415-ace6cbc2aacd
-  UpdateUID: ad3bf64b-72ca-4b41-b35a-e3c0a3219a0a
-  SceneID: 0
-  FullCharacterDialogueSet:
-  - {fileID: 4077652832893200226}
-  - {fileID: 6687846638460137529}
-  - {fileID: 7139090887218244923}
-  - {fileID: 878750757544843923}
-  - {fileID: -8886190159081742153}
-  - {fileID: -4948982398651550755}
-  - {fileID: -5737673429122347756}
-  - {fileID: 3685393800229508512}
-  - {fileID: -656791174282939729}
-  - {fileID: -6342386379516380652}
-  - {fileID: 4892245605797719756}
-  - {fileID: -3486211100197241559}
-  - {fileID: -532570131918468069}
-  - {fileID: 6395016157444604679}
-  - {fileID: -9019607918094850012}
-  - {fileID: 7864955023920365050}
-  - {fileID: -3109779003875488012}
-  - {fileID: 353817087483517305}
-  ActiveCharacterDialogueSet: []
-  Characters:
-  - {fileID: 4077652832893200226}
-  - {fileID: 7139090887218244923}
-  Languages:
-  - Name: English
-    CountryCode: en-US
-    Active: 0
-    Default: 0
-  LanguageIndex: 0
-  LanguageNameArray:
-  - English
---- !u!114 &353817087483517305
+  Name: 19_Dialogue
+  Text: 
+  UID: e717b495-f1aa-469d-9582-ba678abbc3ac
+  CharacterName: Guru
+  CallingNodeData: {fileID: 2942821921851006086}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 5880023707498653295}
+  DataIconnectedTo:
+  - {fileID: 3993391116466478259}
+  Duration: 1
+  Delay: 1.4710938
+  RealtimeDelay: 0
+  StartTime: 4.2210937
+  DurationSum: 5.2210937
+  useTime: 1
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - "gs f'k\";] esjs vkJe esa rqEgkjk Lokxr gS A rqEgkjk ;gk\xA1 vkus dk m\xEDs';
+    D;k gS \\"
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: e146f729081ab5546b3f623a88095437, type: 3}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &-2183242665258611083
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -423,18 +253,18 @@ MonoBehaviour:
   Text: 
   UID: 12d46403-4242-44b4-b380-5d48f66917cf
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: -3109779003875488012}
+  - {fileID: -1098984607673816776}
   DataIconnectedTo:
-  - {fileID: 6687846638460137529}
+  - {fileID: 1925891448100020707}
   Duration: 4
   Delay: 1.0507812
-  RealtimeDelay: 0
-  StartTime: 96.45889
-  DurationSum: 100.45889
+  RealtimeDelay: 1.0507812
+  StartTime: 99.33408
+  DurationSum: 103.33408
   useTime: 1
   IsPlayer: 0
   OverrideStartTime: 0
@@ -446,7 +276,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9562267e133239e45b1e0348016db691, type: 3}
   StoryboardImage: {fileID: 0}
   Tag: 
---- !u!114 &878750757544843923
+--- !u!114 &-2074447078278969713
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -456,36 +286,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 5_Dialogue
+  m_Name: 21_Dialogue
   m_EditorClassIdentifier: 
-  Name: 5_Dialogue
+  Name: 21_Dialogue
   Text: 
-  UID: f1da4c1d-c09d-4b9b-8908-2102188d845d
+  UID: a7a741b6-c716-47a3-91bd-dd855ed256a3
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: 7139090887218244923}
+  - {fileID: 5888116032241689060}
   DataIconnectedTo:
-  - {fileID: -4948982398651550755}
-  Duration: 1
-  Delay: 1.75
-  RealtimeDelay: 0
-  StartTime: 1.75
-  DurationSum: 2.75
+  - {fileID: -1098984607673816776}
+  Duration: 7
+  Delay: 1.9964844
+  RealtimeDelay: 1.9964828
+  StartTime: 85.65635
+  DurationSum: 92.65635
   useTime: 1
   IsPlayer: 0
   OverrideStartTime: 0
   LocalizedText:
-  - lqIjHkkr
+  - "laLD`r &  rkS pjr% A \r\nfganh  &  os nks pj jgs gSa A\r\n\r\n"
   LocalizedVoiceRecordings:
   - {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 8300000, guid: 0d289b19f3fd204449c94b55fdf8790e, type: 3}
+  - {fileID: 8300000, guid: a48b6fd87f3ad6b49a052e240e62c004, type: 3}
   StoryboardImage: {fileID: 0}
   Tag: 
---- !u!114 &3685393800229508512
+--- !u!114 &-1098984607673816776
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -495,213 +325,85 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 9_Dialogue
+  m_Name: 22_Dialogue
   m_EditorClassIdentifier: 
-  Name: 9_Dialogue
+  Name: 22_Dialogue
   Text: 
-  UID: a8f4a483-a8a8-46d0-8822-f49b8e1d08e4
+  UID: 234dacf5-3797-4d34-a7e6-3fceb7752de3
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: -5737673429122347756}
+  - {fileID: -2074447078278969713}
   DataIconnectedTo:
-  - {fileID: -6342386379516380652}
-  Duration: 6
-  Delay: 3.3
-  RealtimeDelay: 0
-  StartTime: 30.449999
-  DurationSum: 36.45
-  useTime: 1
-  IsPlayer: 0
-  OverrideStartTime: 0
-  LocalizedText:
-  - "laLD`r &  ro uke fde~ \r\nfganh  & rqEgkjk uke D;k gS\r\n"
-  LocalizedVoiceRecordings:
-  - {fileID: 0}
-  LocalizedSoundEffects:
-  - {fileID: 8300000, guid: 1502b7be280fd9b42981895282bcf271, type: 3}
-  StoryboardImage: {fileID: 0}
-  Tag: 
---- !u!114 &4077652832893200226
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f62fd303fe32d84d939ad01a51f9fdb, type: 3}
-  m_Name: Student
-  m_EditorClassIdentifier: 
-  Name: Student
-  Text: 
-  UID: f53612f5-813f-4afc-9c98-d82b4f01c13c
-  CharacterName: Student
-  CallingNodeData: {fileID: 4077652832893200226}
-  EnvironmentName: 
-  Pass: 0
-  DataConnectedToMe: []
-  DataIconnectedTo:
-  - {fileID: -8886190159081742153}
-  Duration: 0
-  Delay: 0
-  RealtimeDelay: 0
-  StartTime: 0
-  DurationSum: 0
-  useTime: 0
-  IsPlayer: 1
-  OverrideStartTime: 0
-  LocalizedText:
-  - 
-  NodeDataInMyChain:
-  - {fileID: -656791174282939729}
-  - {fileID: -8886190159081742153}
-  - {fileID: 4077652832893200226}
-  CharacterImage: {fileID: 0}
-  CharacterPersonality:
-    NegativeTraits:
-      Angry: 0
-      Arrogantt: 0
-      Careless: 0
-      Childish: 0
-      Cowardly: 0
-      Crafty: 0
-      Crazy: 0
-      Cruel: 0
-      Dependent: 0
-      Destructive: 0
-      Devious: 0
-      Disloyal: 0
-      Disobedient: 0
-      Disorderly: 0
-      Disorganized: 0
-      Fearful: 0
-      Fickle: 0
-      Foolish: 0
-      Forgetful: 0
-      Frightening: 0
-      Frivolous: 0
-      Graceless: 0
-      Gullible: 0
-      Hostile: 0
-      Impractical: 0
-      Irritable: 0
-      Lazy: 0
-      Meddlesome: 0
-      Miserable: 0
-      Neglectful: 0
-      Opportunistic: 0
-      Provocative: 0
-      Slow: 0
-      Timid: 0
-      Uncooperative: 0
-      Unreliable: 0
-      Weak: 0
-      WeakWilled: 0
-    NeutralTraits:
-      Aggressive: 0
-      Deceptive: 0
-      Dominating: 0
-      Enigmatic: 0
-      Experimental: 0
-      Iconoclastic: 0
-      Idiosyncratic: 0
-      Impassive: 0
-      Obedient: 0
-      Progressive: 0
-      Questioning: 0
-      Reserved: 0
-      Stubborn: 0
-    PositiveTraits:
-      Accessible: 0
-      Active: 0
-      Adaptable: 0
-      Adventurous: 0
-      Alert: 0
-      Brilliant: 0
-      Calm: 0
-      Capable: 0
-      Challenging: 0
-      Charismatic: 0
-      Clever: 0
-      Confident: 0
-      Cooperative: 0
-      Courageous: 0
-      Curious: 0
-      Daring: 0
-      Decisive: 0
-      Discreet: 0
-      Efficient: 0
-      Energetic: 0
-      Focused: 0
-      Helpful: 0
-      Independent: 0
-      Individualistic: 0
-      Innovative: 0
-      Intelligent: 0
-      Leaderly: 0
-      Logical: 0
-      Loyal: 0
-      Methodical: 0
-      Orderly: 0
-      Organized: 0
-      Patient: 0
-      Patriotic: 0
-      Peaceful: 0
-      Reliable: 0
-      Resourceful: 0
-      Responsible: 0
-      Responsive: 0
-      Sane: 0
-      Selfless: 0
-      Serious: 0
-      Skillful: 0
-      Stoic: 0
-      Strong: 0
-  SortingID: 0
---- !u!114 &4892245605797719756
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 12_Dialogue
-  m_EditorClassIdentifier: 
-  Name: 12_Dialogue
-  Text: 
-  UID: 8f5215ac-0ba9-40b5-890e-c4ae2da04606
-  CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
-  EnvironmentName: 
-  Pass: 0
-  DataConnectedToMe:
-  - {fileID: -6342386379516380652}
-  DataIconnectedTo:
-  - {fileID: -3486211100197241559}
+  - {fileID: -2183242665258611083}
   Duration: 3
-  Delay: 1.777533
-  RealtimeDelay: 0
-  StartTime: 51.027534
-  DurationSum: 54.027534
+  Delay: 2.6269531
+  RealtimeDelay: 2.6269531
+  StartTime: 95.2833
+  DurationSum: 98.2833
   useTime: 1
   IsPlayer: 0
   OverrideStartTime: 0
   LocalizedText:
-  - "laLD`r &  ,\"kk unh A \r\nfganh  &  ;g unh gS A\r\n \r\n"
+  - "laLD`r &  ,\"k% oua A\r\nfganh  &  ;g ou gS A \r\n"
   LocalizedVoiceRecordings:
   - {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 8300000, guid: 586ba6a1ee7b8f948a50b232b71a99e5, type: 3}
+  - {fileID: 8300000, guid: ff6004fa74d9c0d43bb4e7d59eca4e35, type: 3}
   StoryboardImage: {fileID: 0}
   Tag: 
---- !u!114 &6395016157444604679
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898e24b5475626c4e801ae0a3c8a1e90, type: 3}
+  m_Name: New SceneData
+  m_EditorClassIdentifier: 
+  UID: 2b33a32c-3b76-4d6d-a415-ace6cbc2aacd
+  UpdateUID: 46890b02-6780-4f04-9f1b-1badf6448cf3
+  SceneID: 0
+  FullCharacterDialogueSet:
+  - {fileID: 2942821921851006086}
+  - {fileID: 5434295476880883808}
+  - {fileID: -4297576774633754207}
+  - {fileID: 5880023707498653295}
+  - {fileID: 9131175948451318448}
+  - {fileID: -4029920234079458991}
+  - {fileID: -8606403178676902441}
+  - {fileID: 3993391116466478259}
+  - {fileID: 9035752323505132880}
+  - {fileID: 2604598694774899608}
+  - {fileID: -6083490960553717429}
+  - {fileID: -5189743997480138664}
+  - {fileID: 7786056025051237672}
+  - {fileID: 8613804281505174612}
+  - {fileID: -4293617989537058858}
+  - {fileID: 1021271226050995593}
+  - {fileID: 5888116032241689060}
+  - {fileID: -2074447078278969713}
+  - {fileID: -1098984607673816776}
+  - {fileID: -2183242665258611083}
+  - {fileID: 1925891448100020707}
+  ActiveCharacterDialogueSet: []
+  Characters:
+  - {fileID: 5434295476880883808}
+  - {fileID: 2942821921851006086}
+  Languages:
+  - Name: English
+    CountryCode: en-US
+    Active: 0
+    Default: 0
+  LanguageIndex: 0
+  LanguageNameArray:
+  - English
+--- !u!114 &1021271226050995593
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -717,18 +419,18 @@ MonoBehaviour:
   Text: 
   UID: 7ae1815a-cede-47c3-bf70-35899fe93a65
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: -532570131918468069}
+  - {fileID: -4293617989537058858}
   DataIconnectedTo:
-  - {fileID: -9019607918094850012}
+  - {fileID: 5888116032241689060}
   Duration: 6
   Delay: 1.815953
-  RealtimeDelay: 0
-  StartTime: 67.73565
-  DurationSum: 73.73565
+  RealtimeDelay: 1.8159561
+  StartTime: 70.61084
+  DurationSum: 76.61084
   useTime: 1
   IsPlayer: 0
   OverrideStartTime: 0
@@ -746,7 +448,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5bae880a930644949a3a3871e0cdf07c, type: 3}
   StoryboardImage: {fileID: 0}
   Tag: 
---- !u!114 &6687846638460137529
+--- !u!114 &1925891448100020707
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -755,30 +457,76 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c74f5891de31f5248a76eef5fbfae5e3, type: 3}
-  m_Name: 24_End
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 17_Dialogue
   m_EditorClassIdentifier: 
-  Name: 24_End
+  Name: 17_Dialogue
   Text: 
-  UID: a19e06e1-fab8-4943-8a13-4dec16efa128
+  UID: 22ae6558-0583-481a-823f-b777c452a44d
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: 353817087483517305}
-  DataIconnectedTo: []
-  Duration: 0
-  Delay: 0
-  RealtimeDelay: 0
-  StartTime: 0
-  DurationSum: 0
-  useTime: 0
+  - {fileID: -2183242665258611083}
+  DataIconnectedTo:
+  - {fileID: -4297576774633754207}
+  Duration: 1
+  Delay: 1.1558594
+  RealtimeDelay: 1.1558609
+  StartTime: 104.489944
+  DurationSum: 105.489944
+  useTime: 1
   IsPlayer: 0
   OverrideStartTime: 0
   LocalizedText:
-  - 
---- !u!114 &7139090887218244923
+  - "D`I;k  ogk\xA1 xq#  th  ls  'kCn  dks\"k  dk  Kku  \xE7kIr  djsa"
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 32f1104893848d641be4ff75f4451d62, type: 3}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &2604598694774899608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 9_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 9_Dialogue
+  Text: 
+  UID: a8f4a483-a8a8-46d0-8822-f49b8e1d08e4
+  CharacterName: Guru
+  CallingNodeData: {fileID: 2942821921851006086}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 9035752323505132880}
+  DataIconnectedTo:
+  - {fileID: -5189743997480138664}
+  Duration: 6
+  Delay: 3.3
+  RealtimeDelay: 3.2999992
+  StartTime: 33.325195
+  DurationSum: 39.325195
+  useTime: 1
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - "laLD`r &  ro uke fde~ \r\nfganh  & rqEgkjk uke D;k gS\r\n"
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 1502b7be280fd9b42981895282bcf271, type: 3}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &2942821921851006086
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -794,12 +542,12 @@ MonoBehaviour:
   Text: 
   UID: 083d44d5-1e20-4434-a268-1479b8fe7a27
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe: []
   DataIconnectedTo:
-  - {fileID: 878750757544843923}
+  - {fileID: 5880023707498653295}
   Duration: 0
   Delay: 0
   RealtimeDelay: 0
@@ -811,21 +559,23 @@ MonoBehaviour:
   LocalizedText:
   - 
   NodeDataInMyChain:
-  - {fileID: 3685393800229508512}
-  - {fileID: -6342386379516380652}
-  - {fileID: 4892245605797719756}
-  - {fileID: -3486211100197241559}
-  - {fileID: -9019607918094850012}
-  - {fileID: 7864955023920365050}
-  - {fileID: -3109779003875488012}
-  - {fileID: -532570131918468069}
-  - {fileID: 6395016157444604679}
-  - {fileID: 353817087483517305}
-  - {fileID: 6687846638460137529}
-  - {fileID: 7139090887218244923}
-  - {fileID: 878750757544843923}
-  - {fileID: -4948982398651550755}
-  - {fileID: -5737673429122347756}
+  - {fileID: 2604598694774899608}
+  - {fileID: -5189743997480138664}
+  - {fileID: 7786056025051237672}
+  - {fileID: 8613804281505174612}
+  - {fileID: 5888116032241689060}
+  - {fileID: -4293617989537058858}
+  - {fileID: 1021271226050995593}
+  - {fileID: 9035752323505132880}
+  - {fileID: -4029920234079458991}
+  - {fileID: 3993391116466478259}
+  - {fileID: 5880023707498653295}
+  - {fileID: 2942821921851006086}
+  - {fileID: -1098984607673816776}
+  - {fileID: -2074447078278969713}
+  - {fileID: -2183242665258611083}
+  - {fileID: -4297576774633754207}
+  - {fileID: 1925891448100020707}
   CharacterImage: {fileID: 0}
   CharacterPersonality:
     NegativeTraits:
@@ -928,7 +678,7 @@ MonoBehaviour:
       Stoic: 0
       Strong: 0
   SortingID: 1
---- !u!114 &7864955023920365050
+--- !u!114 &3993391116466478259
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -938,32 +688,411 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
-  m_Name: 21_Dialogue
+  m_Name: 19_Dialogue
   m_EditorClassIdentifier: 
-  Name: 21_Dialogue
+  Name: 19_Dialogue
   Text: 
-  UID: a7a741b6-c716-47a3-91bd-dd855ed256a3
+  UID: dd2b2118-43ab-4997-a0bb-2c003722824d
   CharacterName: Guru
-  CallingNodeData: {fileID: 7139090887218244923}
+  CallingNodeData: {fileID: 2942821921851006086}
   EnvironmentName: 
   Pass: 0
   DataConnectedToMe:
-  - {fileID: -9019607918094850012}
+  - {fileID: -4029920234079458991}
   DataIconnectedTo:
-  - {fileID: -3109779003875488012}
-  Duration: 7
-  Delay: 1.9964844
-  RealtimeDelay: 0
-  StartTime: 82.78116
-  DurationSum: 89.78116
+  - {fileID: 9035752323505132880}
+  Duration: 1
+  Delay: 2.1541016
+  RealtimeDelay: 0.6093755
+  StartTime: 7.3751955
+  DurationSum: 8.3751955
   useTime: 1
   IsPlayer: 0
   OverrideStartTime: 0
   LocalizedText:
-  - "laLD`r &  rkS pjr% A \r\nfganh  &  os nks pj jgs gSa A\r\n\r\n"
+  - 'vko''
+
+    D`i;k viuk LFkku xzsg.k djsa A'
   LocalizedVoiceRecordings:
   - {fileID: 0}
   LocalizedSoundEffects:
-  - {fileID: 8300000, guid: a48b6fd87f3ad6b49a052e240e62c004, type: 3}
+  - {fileID: 8300000, guid: 14e418d863ad78c4b804a2e3b890080c, type: 3}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &5434295476880883808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f62fd303fe32d84d939ad01a51f9fdb, type: 3}
+  m_Name: Student
+  m_EditorClassIdentifier: 
+  Name: Student
+  Text: 
+  UID: f53612f5-813f-4afc-9c98-d82b4f01c13c
+  CharacterName: Student
+  CallingNodeData: {fileID: 5434295476880883808}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe: []
+  DataIconnectedTo:
+  - {fileID: 9131175948451318448}
+  Duration: 0
+  Delay: 0
+  RealtimeDelay: 0
+  StartTime: 0
+  DurationSum: 0
+  useTime: 0
+  IsPlayer: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - 
+  NodeDataInMyChain:
+  - {fileID: -6083490960553717429}
+  - {fileID: -8606403178676902441}
+  - {fileID: 9131175948451318448}
+  - {fileID: 5434295476880883808}
+  CharacterImage: {fileID: 0}
+  CharacterPersonality:
+    NegativeTraits:
+      Angry: 0
+      Arrogantt: 0
+      Careless: 0
+      Childish: 0
+      Cowardly: 0
+      Crafty: 0
+      Crazy: 0
+      Cruel: 0
+      Dependent: 0
+      Destructive: 0
+      Devious: 0
+      Disloyal: 0
+      Disobedient: 0
+      Disorderly: 0
+      Disorganized: 0
+      Fearful: 0
+      Fickle: 0
+      Foolish: 0
+      Forgetful: 0
+      Frightening: 0
+      Frivolous: 0
+      Graceless: 0
+      Gullible: 0
+      Hostile: 0
+      Impractical: 0
+      Irritable: 0
+      Lazy: 0
+      Meddlesome: 0
+      Miserable: 0
+      Neglectful: 0
+      Opportunistic: 0
+      Provocative: 0
+      Slow: 0
+      Timid: 0
+      Uncooperative: 0
+      Unreliable: 0
+      Weak: 0
+      WeakWilled: 0
+    NeutralTraits:
+      Aggressive: 0
+      Deceptive: 0
+      Dominating: 0
+      Enigmatic: 0
+      Experimental: 0
+      Iconoclastic: 0
+      Idiosyncratic: 0
+      Impassive: 0
+      Obedient: 0
+      Progressive: 0
+      Questioning: 0
+      Reserved: 0
+      Stubborn: 0
+    PositiveTraits:
+      Accessible: 0
+      Active: 0
+      Adaptable: 0
+      Adventurous: 0
+      Alert: 0
+      Brilliant: 0
+      Calm: 0
+      Capable: 0
+      Challenging: 0
+      Charismatic: 0
+      Clever: 0
+      Confident: 0
+      Cooperative: 0
+      Courageous: 0
+      Curious: 0
+      Daring: 0
+      Decisive: 0
+      Discreet: 0
+      Efficient: 0
+      Energetic: 0
+      Focused: 0
+      Helpful: 0
+      Independent: 0
+      Individualistic: 0
+      Innovative: 0
+      Intelligent: 0
+      Leaderly: 0
+      Logical: 0
+      Loyal: 0
+      Methodical: 0
+      Orderly: 0
+      Organized: 0
+      Patient: 0
+      Patriotic: 0
+      Peaceful: 0
+      Reliable: 0
+      Resourceful: 0
+      Responsible: 0
+      Responsive: 0
+      Sane: 0
+      Selfless: 0
+      Serious: 0
+      Skillful: 0
+      Stoic: 0
+      Strong: 0
+  SortingID: 0
+--- !u!114 &5880023707498653295
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 5_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 5_Dialogue
+  Text: 
+  UID: f1da4c1d-c09d-4b9b-8908-2102188d845d
+  CharacterName: Guru
+  CallingNodeData: {fileID: 2942821921851006086}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 2942821921851006086}
+  DataIconnectedTo:
+  - {fileID: -4029920234079458991}
+  Duration: 1
+  Delay: 1.75
+  RealtimeDelay: 1.75
+  StartTime: 1.75
+  DurationSum: 2.75
+  useTime: 1
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - lqIjHkkr
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 0d289b19f3fd204449c94b55fdf8790e, type: 3}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &5888116032241689060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 19_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 19_Dialogue
+  Text: 
+  UID: 67bbd074-5a35-4cd2-b255-cd15d560fe1d
+  CharacterName: Guru
+  CallingNodeData: {fileID: 2942821921851006086}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 1021271226050995593}
+  DataIconnectedTo:
+  - {fileID: -2074447078278969713}
+  Duration: 5
+  Delay: 2.0490234
+  RealtimeDelay: 2.0490265
+  StartTime: 78.65987
+  DurationSum: 83.65987
+  useTime: 1
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - "laLD`r &  rkS dkS \\\r\nfganh  &  os nks D;k gSa \\ \r\nlaLD`r &  rkS cfyonkS
+    Lr% A\r\nfganh  &  og nks cSy gSa A\n"
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: c57d6cd2ec2fa4f45806b37dc355e15d, type: 3}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &7786056025051237672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 12_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 12_Dialogue
+  Text: 
+  UID: 8f5215ac-0ba9-40b5-890e-c4ae2da04606
+  CharacterName: Guru
+  CallingNodeData: {fileID: 2942821921851006086}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: -5189743997480138664}
+  DataIconnectedTo:
+  - {fileID: 8613804281505174612}
+  Duration: 3
+  Delay: 1.777533
+  RealtimeDelay: 1.7775345
+  StartTime: 53.90273
+  DurationSum: 56.90273
+  useTime: 1
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - "laLD`r &  ,\"kk unh A \r\nfganh  &  ;g unh gS A\r\n \r\n"
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 586ba6a1ee7b8f948a50b232b71a99e5, type: 3}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &8613804281505174612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 15_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 15_Dialogue
+  Text: 
+  UID: 59beeb44-0a37-4a8c-8ca3-3464bb55b8e6
+  CharacterName: Guru
+  CallingNodeData: {fileID: 2942821921851006086}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 7786056025051237672}
+  DataIconnectedTo:
+  - {fileID: -4293617989537058858}
+  Duration: 5
+  Delay: 2.166766
+  RealtimeDelay: 2.1667671
+  StartTime: 59.069496
+  DurationSum: 64.069496
+  useTime: 1
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - "laLD`r &  unh vLeH;e~ tye~ nnkfr A \r\nfganh  &  unh ges ty nsrh gS A\r\n\r\n"
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 6b3804ed6969d7348a5298656abcce4b, type: 3}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &9035752323505132880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 8_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 8_Dialogue
+  Text: 
+  UID: d7321f72-03ec-48f1-af42-d7829865aab4
+  CharacterName: Guru
+  CallingNodeData: {fileID: 2942821921851006086}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 3993391116466478259}
+  DataIconnectedTo:
+  - {fileID: 2604598694774899608}
+  Duration: 19
+  Delay: 2.65
+  RealtimeDelay: 2.6500006
+  StartTime: 11.025196
+  DurationSum: 30.025196
+  useTime: 1
+  IsPlayer: 0
+  OverrideStartTime: 0
+  LocalizedText:
+  - nqfu;k esa dbZ rjg dh Hkk"kk,a cksyh tkrh gSa vkSj gekjs Hkkjr esa Hkh dbZ rjg
+    dh Hkk"kk,a cksyh tkrh gSa- vkt ge vkidks nqfu;k dh lcls iqjkuh Hkk"kk ds ckjs
+    esa i<+kus tk jgs gSa- dgrs gSa dh laLD`r  Hkk"kk ds }kjk gh dbZ Hkk"kk,a cukbZ
+    xbZ gSa
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 8300000, guid: 8f6ee6effa661614e92f29cbd07a304a, type: 3}
+  StoryboardImage: {fileID: 0}
+  Tag: 
+--- !u!114 &9131175948451318448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf1569bde5e9b2488d32c839a2baee5, type: 3}
+  m_Name: 6_Dialogue
+  m_EditorClassIdentifier: 
+  Name: 6_Dialogue
+  Text: 
+  UID: 56146373-2766-4a90-a431-09eb7c9620e6
+  CharacterName: Student
+  CallingNodeData: {fileID: 5434295476880883808}
+  EnvironmentName: 
+  Pass: 0
+  DataConnectedToMe:
+  - {fileID: 5434295476880883808}
+  DataIconnectedTo:
+  - {fileID: -8606403178676902441}
+  Duration: 1
+  Delay: 3.3472655
+  RealtimeDelay: 0.5972655
+  StartTime: 3.3472655
+  DurationSum: 4.3472652
+  useTime: 1
+  IsPlayer: 1
+  OverrideStartTime: 0
+  LocalizedText:
+  - lqIjHkkr
+  LocalizedVoiceRecordings:
+  - {fileID: 0}
+  LocalizedSoundEffects:
+  - {fileID: 0}
   StoryboardImage: {fileID: 0}
   Tag: 
